@@ -1,14 +1,14 @@
 # Livro SQL Curso Prático Celso Oliveira
 
-![BANNER LIVRO](https://images2.imgbox.com/0f/0f/givJxjE2_o.png)
+![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
 
-## - Objetivo do livro
+### - Objetivo do livro
 
 Apresentação da linguagem SQL àqueles que estão iniciando os estudos em banco de dados e também abordagem do padrão aberto para o qual foi concebida a linguagem SQL. Portando, mesmo usuários experientes poderão extrair importantes conceitos.
 
 *Neste curso é utilizado o padrão SQL-92 e, quando viavel, o SQL-99*
 
-## - Organização do livro
+### - Organização do livro
 
 **Divisão em três partes:**
 
@@ -18,13 +18,13 @@ Apresentação da linguagem SQL àqueles que estão iniciando os estudos em banc
 
 3. SQL Avançado: ensina a criar estruturas avançadas do SQL, como visões, e identificar os padrões para atribuição e revogação de direitos. Trata também do controle sobre transações.
 
-## - Objetivo do repositório
+### - Objetivo do repositório
 
 Compartilhar os exercícios que foram proposto no livro, criando um abiente de contribuição open-source para encontrarmos soluções mais eficaz juntos.
 
 ---
 
-## - Exercícios
+## Exercícios
 
 *PARTE 1 - CONCEITOS E MODELAGEM DE DADOS*
 
