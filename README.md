@@ -1,5 +1,7 @@
 # Livro SQL Curso Prático Celso Oliveira
 
+![BANNER LIVRO](https://images2.imgbox.com/0f/0f/givJxjE2_o.png)
+
 ## - Objetivo do livro
 
 Apresentação da linguagem SQL àqueles que estão iniciando os estudos em banco de dados e também abordagem do padrão aberto para o qual foi concebida a linguagem SQL. Portando, mesmo usuários experientes poderão extrair importantes conceitos.
