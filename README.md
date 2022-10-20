@@ -2,13 +2,15 @@
 
 ![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
 
-### - Objetivo do livro
+### - Objetivo
 
-Apresentação da linguagem SQL àqueles que estão iniciando os estudos em banco de dados e também abordagem do padrão aberto para o qual foi concebida a linguagem SQL. Portando, mesmo usuários experientes poderão extrair importantes conceitos.
+Apresentar a linguagem SQL àqueles que estão iniciando e abordar o padrão aberto para o qual foi concebida a linguagem. 
+
+Portando, mesmo usuários experientes poderão extrair importantes conceitos.
 
 *Neste curso é utilizado o padrão SQL-92 e, quando viavel, o SQL-99*
 
-### - Organização do livro
+### - Organização
 
 **Divisão em três partes:**
 
@@ -26,7 +28,7 @@ Compartilhar os exercícios que foram proposto no livro, criando um abiente de c
 
 ## Downloads
 
-[Estrutura e Dados](./downloads/ImovelNet.sql)
+:bank: [Estrutura e Dados](./downloads/ImovelNet.sql)
 
 ---
 
