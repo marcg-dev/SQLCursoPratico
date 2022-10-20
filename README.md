@@ -24,8 +24,15 @@ Compartilhar os exercícios que foram proposto no livro, criando um abiente de c
 
 ---
 
+## Downloads
+
+[Estrutura e Dados](./downloads/ImovelNet.sql)
+
+---
+
+
 ## Exercícios
 
 *PARTE 1 - CONCEITOS E MODELAGEM DE DADOS*
 
-- ### [Capitulo 2 - Projetando banco de dados](capitulo2.md)
+- ### [Capitulo 2 - Projetando banco de dados]()
