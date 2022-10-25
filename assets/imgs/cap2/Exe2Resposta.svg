@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 788.5 510" style="enable-background:new 0 0 788.5 510;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;fill:#C0C0C0;enable-background:new    ;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:13px;}
+	.st5{font-family:'ArialMT';}
+	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:3;}
+</style>
+<g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="63" y="87" class="st0" width="153.9" height="165"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="56" y="80" class="st1" width="153.9" height="165"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M56,80h153.9v165H56V80z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M56,103h153.9"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M84.1,103v142"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M188,103v142"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 96.1318 95.5386)" class="st3 st4">VENDEDOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 61 116.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 117.0771)" class="st5 st4">CDVENDEDOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 132.0771)" class="st5 st4">NMVENDEDOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 147.0771)" class="st5 st4">NMENDERECO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 162.0771)" class="st5 st4">NRCPF</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 177.0771)" class="st5 st4">NMCIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 192.0771)" class="st5 st4">NMBAIRRO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 207.0771)" class="st5 st4">SGESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 222.0771)" class="st5 st4">TELEFONE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 89.0591 236.9438)" class="st5 st4">EMAIL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="399" y="87" class="st0" width="168.4" height="195"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="392" y="80" class="st1" width="168.4" height="195"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M392,80h168.4v195H392V80z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M392,103h168.4"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M420.1,103v172"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M551.4,103v172"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 451.2827 95.5386)" class="st3 st4">IMOVEL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 397 116.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 117.0771)" class="st5 st4">CDIMOVEL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 132.0771)" class="st5 st4">CDVENDEDOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 147.0771)" class="st5 st4">NMENDERECO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 161.9438)" class="st5 st4">NRAREAUTIL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 177.0771)" class="st5 st4">NRAREATOTAL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 192.0771)" class="st5 st4">DSIMOVEL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 207.0771)" class="st5 st4">VLPRECO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 222.0771)" class="st5 st4">NROFERTAS</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 237.0771)" class="st5 st4">STVENDIDO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 252.0771)" class="st5 st4">DTLANCTO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 267.0771)" class="st5 st4">IMOVEL_INDICADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="703" y="87" class="st0" width="120.5" height="60"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="696" y="80" class="st1" width="120.5" height="60"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,80h120.5v60H696V80z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,103h120.5"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M724.1,103v37"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M807.5,103v37"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.6382 95.5386)" class="st3 st4">ESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 116.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 117.0771)" class="st5 st4">SGESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 132.0771)" class="st5 st4">NMESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="703" y="215" class="st0" width="119" height="75"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="696" y="208" class="st1" width="119" height="75"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,208h119v75H696V208z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,231h119"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M724.1,231v52"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M806,231v52"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 730.6062 223.5386)" class="st3 st4">CIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 244.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 245.0771)" class="st5 st4">CDCIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 259.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 260.0771)" class="st5 st4">SGESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 275.0771)" class="st5 st4">NMCIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="703" y="367" class="st0" width="119" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="696" y="360" class="st1" width="119" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,360h119v90H696V360z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,383h119"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M724.1,383v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M806,383v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.8857 375.5386)" class="st3 st4">BAIRRO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 396.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 397.0771)" class="st5 st4">CDBAIRRO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 411.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 412.0771)" class="st5 st4">CDCIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 426.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 427.0771)" class="st5 st4">SGESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 442.0771)" class="st5 st4">NMBAIRRO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="703" y="487" class="st0" width="117.1" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="696" y="480" class="st1" width="117.1" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,480h117.1v90H696V480z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M696,503h117.1"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M724.1,503v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M804.1,503v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 706.8818 495.5386)" class="st3 st4">FAIXA_IMOVEL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 701 516.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 517.0771)" class="st5 st4">CDFAIXA</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 531.9438)" class="st5 st4">NMFAIXA</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 547.0771)" class="st5 st4">VLMINIMO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 729.0591 562.0771)" class="st5 st4">VLMAXIMO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="55" y="375" class="st0" width="153.9" height="165"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="48" y="368" class="st1" width="153.9" height="165"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M48,368h153.9v165H48V368z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M48,391h153.9"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M76.1,391v142"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M192.9,391v142"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.6382 383.5386)" class="st3 st4">COMPRADOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 53 404.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 405.0771)" class="st5 st4">CDCOMPRADOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 420.0771)" class="st5 st4">NMCOMPRADOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 435.0771)" class="st5 st4">NMENDERECO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 450.0771)" class="st5 st4">NRCPF</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 465.0771)" class="st5 st4">NMCIDADE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 480.0771)" class="st5 st4">NMBAIRRO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 495.0771)" class="st5 st4">SGESTADO</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 510.0771)" class="st5 st4">TELEFONE</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 81.0591 524.9438)" class="st5 st4">EMAIL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="399" y="407" class="st0" width="152.5" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<rect x="392" y="400" class="st1" width="152.5" height="90"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M392,400h152.5v90H392V400z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M392,423h152.5"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M420.1,423v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M535.5,423v67"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+			<text transform="matrix(1 0 0 1 442.012 415.5386)" class="st3 st4">OFERTA</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 397 436.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 437.0771)" class="st5 st4">CDCOMPRADOR</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 397 451.9438)" class="st5 st4">PK</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 452.0771)" class="st5 st4">CDIMOVEL</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 467.0771)" class="st5 st4">VLOFERTA</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+			<text transform="matrix(1 0 0 1 425.0591 482.0771)" class="st5 st4">DTOFERTA</text>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st6" d="M210,162h182"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M378,162l14,7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M378,162l14-7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M363,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S363,165.9,363,162z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M363,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S363,165.9,363,162z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M225,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S225,165.9,225,162z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M225,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S225,165.9,225,162z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M217,155v14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M202,449h190"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M378,449l14,7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M378,449l14-7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M378,456v-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M209,442v14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M216,442v14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M756,140v68"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M756,194l-7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M756,194l7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M749,186c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S749,189.9,749,186z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M749,186c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S749,189.9,749,186z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M763,147h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M763,154h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M755,283v77"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M755,346l-7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M755,346l7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M748,338c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S748,341.9,748,338z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M748,338c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S748,341.9,748,338z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M762,290h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M762,297h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M464,275v125"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M464,386l-7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M464,386l7,14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M457,386h14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M471,282h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M471,289h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M560,152h56 M616,152c4.4,0,8,3.6,8,8v240 M624,400c0,4.4,3.6,8,8,8h64"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M682,408l14,7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M682,408l14-7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M667,408c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S667,411.9,667,408z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M667,408c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S667,411.9,667,408z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M574,152l-14-7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M574,152l-14,7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M575,152c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,155.9,575,152z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M575,152c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,155.9,575,152z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st6" d="M512,275v37h78v-88h-30"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M574,224l-14-7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M574,224l-14,7"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st1" d="M575,224c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,227.9,575,224z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M575,224c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,227.9,575,224z"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M519,282h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<path class="st2" d="M519,289h-14"/>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+	<g transform="translate(-38,-70) scale(1,1)">
+		<g>
+			<path class="st2" d="M0,0"/>
+		</g>
+	</g>
+</g>
+</svg>
