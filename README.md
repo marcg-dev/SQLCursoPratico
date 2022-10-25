@@ -37,4 +37,4 @@ Compartilhar os exercícios que foram proposto no livro, criando um abiente de c
 
 *PARTE 1 - CONCEITOS E MODELAGEM DE DADOS*
 
-- ### [Capitulo 2 - Projetando banco de dados]()
+- ### [Capitulo 2 - Projetando banco de dados](./pages/Cap2.md)
