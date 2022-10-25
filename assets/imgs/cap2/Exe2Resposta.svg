@@ -3,20 +3,21 @@
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 788.5 510" style="enable-background:new 0 0 788.5 510;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.2;fill:#C0C0C0;enable-background:new    ;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF;}
+	.st1{opacity:0.2;fill:#C0C0C0;enable-background:new    ;}
 	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st3{font-family:'Arial-BoldMT';}
 	.st4{font-size:13px;}
 	.st5{font-family:'ArialMT';}
 	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:3;}
 </style>
+<rect class="st0" width="788.5" height="510"/>
 <g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="63" y="87" class="st0" width="153.9" height="165"/>
+		<rect x="63" y="87" class="st1" width="153.9" height="165"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="56" y="80" class="st1" width="153.9" height="165"/>
+		<rect x="56" y="80" class="st0" width="153.9" height="165"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M56,80h153.9v165H56V80z"/>
@@ -227,10 +228,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="399" y="87" class="st0" width="168.4" height="195"/>
+		<rect x="399" y="87" class="st1" width="168.4" height="195"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="392" y="80" class="st1" width="168.4" height="195"/>
+		<rect x="392" y="80" class="st0" width="168.4" height="195"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M392,80h168.4v195H392V80z"/>
@@ -483,10 +484,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="703" y="87" class="st0" width="120.5" height="60"/>
+		<rect x="703" y="87" class="st1" width="120.5" height="60"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="696" y="80" class="st1" width="120.5" height="60"/>
+		<rect x="696" y="80" class="st0" width="120.5" height="60"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M696,80h120.5v60H696V80z"/>
@@ -550,10 +551,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="703" y="215" class="st0" width="119" height="75"/>
+		<rect x="703" y="215" class="st1" width="119" height="75"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="696" y="208" class="st1" width="119" height="75"/>
+		<rect x="696" y="208" class="st0" width="119" height="75"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M696,208h119v75H696V208z"/>
@@ -639,10 +640,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="703" y="367" class="st0" width="119" height="90"/>
+		<rect x="703" y="367" class="st1" width="119" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="696" y="360" class="st1" width="119" height="90"/>
+		<rect x="696" y="360" class="st0" width="119" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M696,360h119v90H696V360z"/>
@@ -750,10 +751,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="703" y="487" class="st0" width="117.1" height="90"/>
+		<rect x="703" y="487" class="st1" width="117.1" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="696" y="480" class="st1" width="117.1" height="90"/>
+		<rect x="696" y="480" class="st0" width="117.1" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M696,480h117.1v90H696V480z"/>
@@ -859,10 +860,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="55" y="375" class="st0" width="153.9" height="165"/>
+		<rect x="55" y="375" class="st1" width="153.9" height="165"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="48" y="368" class="st1" width="153.9" height="165"/>
+		<rect x="48" y="368" class="st0" width="153.9" height="165"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M48,368h153.9v165H48V368z"/>
@@ -1073,10 +1074,10 @@
 		</g>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="399" y="407" class="st0" width="152.5" height="90"/>
+		<rect x="399" y="407" class="st1" width="152.5" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<rect x="392" y="400" class="st1" width="152.5" height="90"/>
+		<rect x="392" y="400" class="st0" width="152.5" height="90"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M392,400h152.5v90H392V400z"/>
@@ -1192,13 +1193,13 @@
 		<path class="st2" d="M378,162l14-7"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M363,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S363,165.9,363,162z"/>
+		<path class="st0" d="M363,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S363,165.9,363,162z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M363,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S363,165.9,363,162z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M225,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S225,165.9,225,162z"/>
+		<path class="st0" d="M225,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S225,165.9,225,162z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M225,162c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S225,165.9,225,162z"/>
@@ -1254,7 +1255,7 @@
 		<path class="st2" d="M756,194l7,14"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M749,186c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S749,189.9,749,186z"/>
+		<path class="st0" d="M749,186c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S749,189.9,749,186z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M749,186c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S749,189.9,749,186z"/>
@@ -1285,7 +1286,7 @@
 		<path class="st2" d="M755,346l7,14"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M748,338c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S748,341.9,748,338z"/>
+		<path class="st0" d="M748,338c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S748,341.9,748,338z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M748,338c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S748,341.9,748,338z"/>
@@ -1344,7 +1345,7 @@
 		<path class="st2" d="M682,408l14-7"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M667,408c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S667,411.9,667,408z"/>
+		<path class="st0" d="M667,408c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S667,411.9,667,408z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M667,408c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S667,411.9,667,408z"/>
@@ -1356,7 +1357,7 @@
 		<path class="st2" d="M574,152l-14,7"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M575,152c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,155.9,575,152z"/>
+		<path class="st0" d="M575,152c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,155.9,575,152z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M575,152c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,155.9,575,152z"/>
@@ -1381,7 +1382,7 @@
 		<path class="st2" d="M574,224l-14,7"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
-		<path class="st1" d="M575,224c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,227.9,575,224z"/>
+		<path class="st0" d="M575,224c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,227.9,575,224z"/>
 	</g>
 	<g transform="translate(-38,-70) scale(1,1)">
 		<path class="st2" d="M575,224c0-3.9,3.1-7,7-7s7,3.1,7,7s-3.1,7-7,7S575,227.9,575,224z"/>
