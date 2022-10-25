@@ -6,6 +6,8 @@ Em resumo, existem estudos que indicam que quanto maior o tempo despendido no de
 
 Podemos comparar o planejamento do banco de dados com uma estrutura de um prédio. Se não for dado a devida atencão, o edifício irá cair.
 
+*Conforme apresentado no livro, iremos realizar alguns exercícios focando na criacão das entidades e seus relacionamentos.*
+
 ------
 
 ### Exercícios propostos
