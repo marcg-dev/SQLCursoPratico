@@ -1,4 +1,4 @@
-## Capitulo 2 - Projetando banco de dados
+4## Capitulo 2 - Projetando banco de dados
 
 Antes da criação do banco de dados ou iniciarmos a utilização dos comandos SQL. O livro aborda um assunto de extrema importancia: Planejamento de um banco de dados.
 
@@ -6,26 +6,97 @@ Em resumo, existem estudos que indicam que quanto maior o tempo despendido no de
 
 Podemos comparar o planejamento do banco de dados com uma estrutura de um prédio. Se não for dado a devida atencão, o edifício irá cair.
 
-*Conforme apresentado no livro, iremos realizar alguns exercícios focando na criacão das entidades e seus relacionamentos.*
+*Conforme apresentado no livro, iremos realizar os primeiros exercícios fazendo a criacão das entidades e seus relacionamentos.*
 
 ------
 
 ### Exercícios propostos
 
-## 1.
-Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.
-   
-![Pergunta Exercicio 1](../assets/imgs/cap2/Exe1Pergunta.svg)
+### 1.
 
-**Resposta**
+> **Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.**
 
-![Resposta do Exercicio 1](../assets/imgs/cap2/Exe1Resposta.svg)
 
-## 2. 
-Complete os relacionamentos a seguir, levando em consideração que esse sistema é utilizado para cadastrar pessoas interessadas em vender e comprar imóveis. Portando, imagine que há apenas um vendedor para cada imóvel, mas que vários compradores podem fazer oferta para o mesmo imóvel. Leve em consideração que o imóvel será posteriormente pesquisado por Estado, Cidade, Bairro e Faixa de Preço. Por esse motivo, não há necessidade de relacionar Estado, Cidade e Bairro com o Vendedor e Comprador. Acrescente um relacionamento para a indicação de outro Imóvel. Note que a Faixa do Imóvel representa a faixa de preço dos imóveis e que, portando, não é um relacionamento que pode ser feito diretamente à tabela Imóvel.
+````mermaid
+erDiagram
+    GENERO {
+        INT CDGENERO FK
+        STRING NMGENERO
+    }
+    FILME {
+        INT CDFILME PK
+        STRING NMFILME
+        DECIMAL DURACAO
+        STRING SINOPSE
+        BLOB FOTO
+        STRING STLOCADO
+    }
+    CATEGORIA {
+        INT CDCATEGORIA PK
+        STRING NMCATEGORIA
+        DECIMAL VLDIARIA
+    }
+````
 
-![Pergunta do Exercicio 2](../assets/imgs/cap2/Exe2Pergunta.svg)
+````mermaid
+erDiagram
+    LOCACAO {
+        INT CDLOCACAO PK
+        DATE DTLOCACAO
+        DATE DTDEVOLUCAO
+    }
+    CLIENTE{
+        INT CDCLIENTE PK
+        STRING NMCLIENTE
+        STRING NMENDERECO
+        STRING TELEFONE
+        NUMERIC RG
+        DECIMAL CPF
+    }
+````
 
-**Resposta**
 
-![Resposta do Exercicio 1](../assets/imgs/cap2/Exe2Resposta.svg)
+**<span style='color:red'>Resposta</span>**
+
+
+````mermaid
+erDiagram
+    GENERO ||--o{ FILME : Contem
+    GENERO {
+        INT CDGENERO FK
+        STRING NMGENERO
+    }
+    FILME }o--o{ LOCACAO : Esta-em
+    FILME {
+        INT CDFILME PK
+        INT CDGENERO FK
+        STRING NMFILME
+        DECIMAL DURACAO
+        STRING SINOPSE
+        BLOB FOTO
+        STRING STLOCADO
+        INT CDCATEGORIA FK
+    }
+    CATEGORIA ||--o{ FILME : Contem
+    CATEGORIA {
+        INT CDCATEGORIA PK
+        STRING NMCATEGORIA
+        DECIMAL VLDIARIA
+    }
+    LOCACAO {
+        INT CDLOCACAO PK
+        INT CDFILME FK
+        INT CDCLIENTE FK
+        DATE DTLOCACAO
+        DATE DTDEVOLUCAO
+    }
+    CLIENTE }o--o{ LOCACAO : Aluga
+    CLIENTE{
+        INT CDCLIENTE PK
+        STRING NMCLIENTE
+        STRING NMENDERECO
+        STRING TELEFONE
+        NUMERIC RG
+        DECIMAL CPF
+    }
+````
