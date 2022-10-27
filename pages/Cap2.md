@@ -15,7 +15,8 @@ Podemos comparar o planejamento do banco de dados com uma estrutura de um prédi
 
 #### 1.
 
-> **Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.**
+[^note]:
+**Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.**
 
 
 ```mermaid
@@ -56,7 +57,7 @@ erDiagram
     }
 ```
 
-#####==Resposta==
+##### ==Resposta==
 ```mermaid
 erDiagram
     GENERO ||--o{ FILME : Contem
@@ -166,7 +167,7 @@ erDiagram
     }
 ```
 
-#####==Resposta==
+##### ==Resposta==
 
 ```mermaid
 erDiagram

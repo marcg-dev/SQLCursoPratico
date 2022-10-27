@@ -12,7 +12,7 @@ Portando, mesmo usuários experientes poderão extrair importantes conceitos.
 
 ### - Organização
 
-#####Divisão em três partes:
+##### Divisão em três partes:
 
 `1. Conceitos e Modelagem de Dados: parte da teoria de banco de dados, incluindo concietos de modeloagem e normalização de dados, até chegar ao modelo de dados e à criação das tabelas utilizadas para trabalhar com os comandos SQL que serão discutidos posteriormente.`
 
@@ -34,6 +34,6 @@ Portando, mesmo usuários experientes poderão extrair importantes conceitos.
 
 ### Exercícios
 
-######_PARTE 1 - CONCEITOS E MODELAGEM DE DADOS_
+###### _PARTE 1 - CONCEITOS E MODELAGEM DE DADOS_
 
 - **[Capitulo 2 - Projetando banco de dados](pages/Cap2.md)**
