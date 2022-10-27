@@ -10,14 +10,15 @@ Podemos comparar o planejamento do banco de dados com uma estrutura de um prédi
 
 ------
 
+
 ### Exercícios propostos
 
-### 1.
+#### 1.
 
 > **Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.**
 
 
-````mermaid
+```mermaid
 erDiagram
     GENERO {
         INT CDGENERO FK
@@ -36,9 +37,9 @@ erDiagram
         STRING NMCATEGORIA
         DECIMAL VLDIARIA
     }
-````
+```
 
-````mermaid
+```mermaid
 erDiagram
     LOCACAO {
         INT CDLOCACAO PK
@@ -53,11 +54,10 @@ erDiagram
         NUMERIC RG
         DECIMAL CPF
     }
-````
+```
 
-**<span style='color:red'>Resposta</span>**
-
-````mermaid
+#####==Resposta==
+```mermaid
 erDiagram
     GENERO ||--o{ FILME : Contem
     GENERO {
@@ -97,12 +97,12 @@ erDiagram
         NUMERIC RG
         DECIMAL CPF
     }
-````
+```
 
-### 2.
+#### 2.
 > **Complete os relacionamentos a seguir, levando em consideração que esse sistema é utilizado para cadastrar pessoas interessadas em vender e comprar imóveis. Portando, imagine que há apenas um vendedor para cada imóvel, mas que vários compradores podem fazer oferta para o mesmo imóvel. Leve em consideração que o imóvel será posteriormente pesquisado por Estado, Cidade, Bairro e Faixa de Preço. Por esse motivo, não há necessidade de relacionar Estado, Cidade e Bairro com o Vendedor e Comprador. Acrescente um relacionamento para a indicação de outro Imóvel. Note que a Faixa do Imóvel representa a faixa de preço dos imóveis e que, portando, não é um relacionamento que pode ser feito diretamente à tabela Imóvel.**
 
-````mermaid
+```mermaid
 erDiagram
     VENDEDOR {
         INT CDVENDEDOR FK
@@ -125,9 +125,9 @@ erDiagram
         STRING STVENDIDO
         DATE DTLANCTO
     }
-````
+```
 
-````mermaid
+```mermaid
 erDiagram
     ESTADO {
         CHAR SGESTADO PK
@@ -141,9 +141,9 @@ erDiagram
         INTER CDBAIRRO
         STRING NMBAIRRO
     }
-````
+```
 
-````mermaid
+```mermaid
 erDiagram
     COMPRADOR {
         INT CDCOMPRADOR PK
@@ -164,11 +164,11 @@ erDiagram
         DECIMAL VLMINIMO
         DECIMAL VLMAXIMO
     }
-````
+```
 
-**<span style='color:red'>Resposta</span>**
+#####==Resposta==
 
-````mermaid
+```mermaid
 erDiagram
     FAIXA_IMOVEL {
         INT CDFAIXA PK
@@ -236,4 +236,4 @@ erDiagram
         STRING SGESTADO PK
         STRING NMBAIRRO
     }
-````
+```
