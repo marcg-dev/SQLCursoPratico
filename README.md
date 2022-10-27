@@ -2,7 +2,7 @@
 
 ![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
 
-### - Objetivo
+### - Objetivo do livro
 
 Apresentar a linguagem SQL àqueles que estão iniciando e abordar o padrão aberto para o qual foi concebida a linguagem. 
 
@@ -10,7 +10,7 @@ Portando, mesmo usuários experientes poderão extrair importantes conceitos.
 
 *Neste curso é utilizado o padrão SQL-92 e, quando viavel, o SQL-99*
 
-### - Organização
+### - Organização do livro
 
 ##### Divisão em três partes:
 
