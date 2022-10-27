@@ -1,4 +1,4 @@
-4## Capitulo 2 - Projetando banco de dados
+## Capitulo 2 - Projetando banco de dados
 
 Antes da criação do banco de dados ou iniciarmos a utilização dos comandos SQL. O livro aborda um assunto de extrema importancia: Planejamento de um banco de dados.
 
@@ -55,9 +55,7 @@ erDiagram
     }
 ````
 
-
 **<span style='color:red'>Resposta</span>**
-
 
 ````mermaid
 erDiagram
@@ -98,5 +96,144 @@ erDiagram
         STRING TELEFONE
         NUMERIC RG
         DECIMAL CPF
+    }
+````
+
+### 2.
+> **Complete os relacionamentos a seguir, levando em consideração que esse sistema é utilizado para cadastrar pessoas interessadas em vender e comprar imóveis. Portando, imagine que há apenas um vendedor para cada imóvel, mas que vários compradores podem fazer oferta para o mesmo imóvel. Leve em consideração que o imóvel será posteriormente pesquisado por Estado, Cidade, Bairro e Faixa de Preço. Por esse motivo, não há necessidade de relacionar Estado, Cidade e Bairro com o Vendedor e Comprador. Acrescente um relacionamento para a indicação de outro Imóvel. Note que a Faixa do Imóvel representa a faixa de preço dos imóveis e que, portando, não é um relacionamento que pode ser feito diretamente à tabela Imóvel.**
+
+````mermaid
+erDiagram
+    VENDEDOR {
+        INT CDVENDEDOR FK
+        STRING NMVENDEDOR
+        DECIMAL NMENDERECO
+        STRING NMCIDADE
+        STRING NMBAIRRO
+        CHAR SGESTADO
+        STRING TELEFONE
+        STRING EMAIL
+    }
+    IMOVEL {
+        INT CDIMOVEL PK
+        STRING NMENDERECO
+        DECIMAL NRAREAUTIL
+        DECIMAL NRAREATOTAL
+        STRING DSIMOVEL
+        DECIMAL VLPRECO
+        INT NROFERTAS
+        STRING STVENDIDO
+        DATE DTLANCTO
+    }
+````
+
+````mermaid
+erDiagram
+    ESTADO {
+        CHAR SGESTADO PK
+        STRING NMESTADO
+    }
+    CIDADE {
+        INT CDCIDADE PK
+        STRING NMCIDADE
+    }
+    BAIRRO {
+        INTER CDBAIRRO
+        STRING NMBAIRRO
+    }
+````
+
+````mermaid
+erDiagram
+    COMPRADOR {
+        INT CDCOMPRADOR PK
+        STRING NMCOMPRADOR
+        DECIMAL NMENDERECO
+        STRING NMCIDADE
+        STRING NMBAIRRO
+        CHAR SGESTADO
+        STRING TELEFONE
+        STRING EMAIL
+    }
+    x {
+        DECIMAL VLOFERTA
+        DATE DTOFERTA
+    }
+    FAIXA_IMOVEL {
+        STRING NMFAIXA PK
+        DECIMAL VLMINIMO
+        DECIMAL VLMAXIMO
+    }
+````
+
+**<span style='color:red'>Resposta</span>**
+
+````mermaid
+erDiagram
+    FAIXA_IMOVEL {
+        INT CDFAIXA PK
+        STRING NMFAIXA
+        DECIMAL VLMINIMO
+        DECIMAL VLMAXIMO
+    }
+    VENDEDOR |o..o{ IMOVEL : Anuncia
+    VENDEDOR {
+        INT CDVENDEDOR FK
+        STRING NMVENDEDOR
+        DECIMAL NMENDERECO
+        STRING NMCIDADE
+        STRING NMBAIRRO
+        CHAR SGESTADO
+        STRING TELEFONE
+        STRING EMAIL
+    }
+    COMPRADOR ||--|{ OFERTA : Faz_oferta
+    COMPRADOR {
+        INT CDCOMPRADOR PK
+        STRING NMCOMPRADOR
+        DECIMAL NMENDERECO
+        STRING NMCIDADE
+        STRING NMBAIRRO
+        CHAR SGESTADO
+        STRING TELEFONE
+        STRING EMAIL
+    }
+    IMOVEL }o..|| IMOVEL : Indica
+    IMOVEL {
+        INT CDIMOVEL PK
+        STRING NMENDERECO
+        DECIMAL NRAREAUTIL
+        DECIMAL NRAREATOTAL
+        STRING DSIMOVEL
+        DECIMAL VLPRECO
+        INT NROFERTAS
+        STRING STVENDIDO
+        DATE DTLANCTO
+        INT IMOVEL_INDICADO
+    }
+    IMOVEL ||--|{ OFERTA : Esta-em
+    OFERTA {
+        INT CDCOMPRADOR PK
+        INT CDIMOVEL PK
+        DECIMAL VLOFERTA
+        DATE DTOFERTA
+    }
+    ESTADO ||--|{ CIDADE : Esta-em
+    ESTADO {
+        CHAR SGESTADO PK
+        STRING NMESTADO
+    }
+    CIDADE ||--|{ BAIRRO : Esta-em
+    CIDADE {
+        INT CDCIDADE PK
+        STRING SGESTADO PK
+        STRING NMCIDADE
+    }
+    BAIRRO }o--o{ IMOVEL : Esta-em
+    BAIRRO {
+        INTER CDBAIRRO PK
+        INT CDCIDADE PK
+        STRING SGESTADO PK
+        STRING NMBAIRRO
     }
 ````
