@@ -2,38 +2,45 @@
 
 ![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
 
-### - Objetivo do livro
+### - Purpose of the book
 
-Apresentar a linguagem SQL àqueles que estão iniciando e abordar o padrão aberto para o qual foi concebida a linguagem. 
+Introduction to the SQL language for beginners and the open standard approach for which the language was designed.
 
-Portando, mesmo usuários experientes poderão extrair importantes conceitos.
+Therefore, even experienced users will be able to extract important concepts.
 
-*Neste curso é utilizado o padrão SQL-92 e, quando viavel, o SQL-99*
+*This course uses the SQL-92 standard and, whenever possible, SQL-99*
 
-### - Organização do livro
+### - Book organization
 
-##### Divisão em três partes:
+##### Division into three parts:
 
-`1. Conceitos e Modelagem de Dados: parte da teoria de banco de dados, incluindo concietos de modeloagem e normalização de dados, até chegar ao modelo de dados e à criação das tabelas utilizadas para trabalhar com os comandos SQL que serão discutidos posteriormente.`
+`1. Database Modeling and Concepts: Database theory, including database modeling and normalization concepts, through to the data model and creation of tables used to work with the SQL commands that will be discussed later.`
 
-`2. SQL Básico: aborda os comandos **SELECT, INSERT, DELETE e UPDATE** em profundidade, incluindo a busca em mútiplas tabelas, funções de grupo, ordenação de dados, entre outros.`
+`2. Basic SQL: Covers the **SELECT, INSERT, DELETE, and UPDATE** commands in depth, including searching multiple tables, group functions, sorting data, and more.`
 
-`3. SQL Avançado: ensina a criar estruturas avançadas do SQL, como visões, e identificar os padrões para atribuição e revogação de direitos. Trata também do controle sobre transações.`
+`3. Advanced SQL: We will learn to create advanced structures in SQL, such as views. We will identify patterns for assigning and revoking rights. We will also deal with control over transactions.`
 
-#### Objetivo do repositório
->Compartilhar os exercícios que foram proposto no livro, criando um abiente de contribuição open-source para encontrarmos soluções mais eficaz juntos.
+#### Repository purpose
+> Create a collaborative environment for everyone who is studying the topic.
+> 
+> I will be immensely grateful to everyone who contributes constructive criticism and corrections to the answers to the exercises.
+> 
+> I'm here to learn!
+> 
+> Submit your pull request
 
 ---
 
 ### Downloads
 
-:bank: [Estrutura e Dados](./downloads/ImovelNet.sql)
+:bank: [Structure and Data](./downloads/ImovelNet.sql)
 
 ---
 
 
-### Exercícios
+### Exercises
 
-###### _PARTE 1 - CONCEITOS E MODELAGEM DE DADOS_
+###### _PART 1 - CONCEPTS AND DATA MODELING_
 
-- **[Capitulo 2 - Projetando banco de dados](pages/Cap2.md)**
+- **[Chapter 2 - Designing a Database](pages/Cap2.md)**
+- **[Chapter 3 - Data Normalization](pages/Cap3.md)**

@@ -1,20 +1,19 @@
-## Capitulo 2 - Projetando banco de dados
+## Chapter 2 - Designing database
 
-Antes da criação do banco de dados ou iniciarmos a utilização dos comandos SQL. O livro aborda um assunto de extrema importancia: Planejamento de um banco de dados.
+Before creating the database or starting to use SQL commands. The book addresses an extremely important subject: Planning a database.
 
-Em resumo, existem estudos que indicam que quanto maior o tempo despendido no desenho do banco de dados, menor será o tempo despendido na manutenção do modelo. Então esse desenho é de extrema importancia para a estabilidade de todo o sistema, evitando futuramente um comprometimento de todo o desenvolvimento.
+In summary, there are studies that indicate that the more time spent on database design, the less time spent on model maintenance. Therefore, this planning is extremely important for the stability of the entire system, avoiding future development problems.
 
-Podemos comparar o planejamento do banco de dados com uma estrutura de um prédio. Se não for dado a devida atenção, o edifício irá cair.
+We can compare database planning with a building structure. If not given proper attention, the building will collapse.
 
-*Conforme apresentado no livro, iremos realizar os primeiros exercícios fazendo a criação das entidades e seus relacionamentos.*
+*As presented in the book, we will perform the first exercises by doing an ERDiagram*
 
 ------
 
-
-### Exercícios propostos
+### Proposed exercises
 
 #### 1.
-**Veja os modelos de dados a seguir. Identifique os relacionamentos entre as entidades apresentadas. Leve em consideração que o Gênero é Drama, Comédia, Aventura etc. e Categoria é a faixa de preço do filme. Em um modelo mais completo, deveria haver várias fitas para um mesmo filme, mas imagine que, nesse sistema não haja essa necessidade.**
+**See data models below. Identify the relationships between the entities presented. Take into account that the Genre is Drama, Comedy, Adventure, etc. and Category is the price range of the movie. In a more complete model, there should be several tapes for the same film, but imagine that, in this system, there is no such need.**
 
 
 ```mermaid
@@ -55,7 +54,7 @@ erDiagram
     }
 ```
 
-##### Resposta
+##### REPLY
 ```mermaid
 erDiagram
     GENERO ||--o{ FILME : Contem
@@ -98,8 +97,10 @@ erDiagram
     }
 ```
 
+&#xa0;
+
 #### 2.
-**Complete os relacionamentos a seguir, levando em consideração que esse sistema é utilizado para cadastrar pessoas interessadas em vender e comprar imóveis. Portando, imagine que há apenas um vendedor para cada imóvel, mas que vários compradores podem fazer oferta para o mesmo imóvel. Leve em consideração que o imóvel será posteriormente pesquisado por Estado, Cidade, Bairro e Faixa de Preço. Por esse motivo, não há necessidade de relacionar Estado, Cidade e Bairro com o Vendedor e Comprador. Acrescente um relacionamento para a indicação de outro Imóvel. Note que a Faixa do Imóvel representa a faixa de preço dos imóveis e que, portando, não é um relacionamento que pode ser feito diretamente à tabela Imóvel.**
+**Fill in the following relationships, taking into account that this system is used to register people interested in selling and buying properties. So imagine that there is only one seller for each property, but that multiple buyers can bid on the same property. Take into account that the property will be later searched by State, City, Neighborhood and Price Range. For this reason, there is no need to relate State, City and Neighborhood with Seller and Buyer. Add a relation that points to another Property. Note that the entity (FAIXA_IMOVEL) represents the price range of the property. And therefore it is not a relationship that can be made directly with the properties entity.**
 
 ```mermaid
 erDiagram
@@ -169,7 +170,7 @@ erDiagram
     }
 ```
 
-##### Resposta
+##### REPLY
 
 ```mermaid
 erDiagram
@@ -204,12 +205,15 @@ erDiagram
     IMOVEL }o..|| IMOVEL : Indica
     IMOVEL {
         INT CDIMOVEL PK
+        INT CDBAIRRO FK
+        INT CDCIDADE FK
+        CHAR SGESTADO FK
         VARCHAR NMENDERECO
         DECIMAL NRAREAUTIL
         DECIMAL NRAREATOTAL
         VARCHAR DSIMOVEL
-        DECIMAL VLPRECO
         INT NROFERTAS
+        DECIMAL VLPRECO
         VARCHAR STVENDIDO
         DATE DTLANCTO
         INT IMOVEL_INDICADO
@@ -241,8 +245,10 @@ erDiagram
     }
 ```
 
+&#xa0;
+
 ### 3
-**Relacione as entidades a seguir e acrescente atributos que você julgue importantes para o sistema. Nesse caso, trata-se de uma empresa de instalação de acessórios para automóveis e, portando, o cliente leva o seu automóvel para instalar produtos na loja.**
+** Add attributes that you consider important to the entities below. In this exercise, you are an auto accessories installation company, so the customer takes his car to install the products in the store.**
 
 ```mermaid
 erDiagram
@@ -266,14 +272,35 @@ erDiagram
     }
 ```
 
-##### Resposta
+##### REPLY
 
 ```mermaid
     erDiagram
+    ESTADO ||--|{ CIDADE : Esta-em
+    ESTADO {
+        CHAR SGESTADO PK
+        VARCHAR NMESTADO
+    }
+    CIDADE ||--|{ BAIRRO : Esta-em
+    CIDADE {
+        INT CDCIDADE PK
+        VARCHAR SGESTADO PK
+        VARCHAR NMCIDADE
+    }
+    BAIRRO |o--o{ LOJA : Esta-em
+    BAIRRO {
+        INTER CDBAIRRO PK
+        INT CDCIDADE PK
+        VARCHAR SGESTADO PK
+        VARCHAR NMBAIRRO
+    }
     LOJA ||--|{ PEDIDO : Esta_no
     LOJA {
         INT CDLOJA PK
         VARCHAR NMLOJA
+        VARCHAR SGESTADO FK
+        VARCHAR CDCIDADE FK
+        VARCHAR CDBAIRRO FK
         VARCHAR NMENDERECO
         VARCHAR NRTELEFONE
         VARCHAR NMGERENTE                                        
@@ -283,47 +310,67 @@ erDiagram
         INT CDLOJA FK
         INT CDPRODUTO FK
         INT CDAUTOMOVEL FK
-        DECIMAL PRECO_TOTAL
+        DECIMAL VLTOTAL
     }
     PRODUTO }o--o{ PEDIDO : Esta_no
     PRODUTO {
         INT CDPRODUTO PK
         VARCHAR NMPRODUTO
         DECIMAL PRECO
-        DECIMAL TEMP_INSTALACAO
+        DECIMAL TEMPINSTALACAO
+    }
+    COMBUSTIVEL ||--o{ AUTOMOVEL : Esta_no
+    COMBUSTIVEL {
+        INT CDCOMBUSTIVEL PK
+        VARCHAR NMCOMBUSTIVEL
     }
     AUTOMOVEL }|--o{ PEDIDO : Esta_no
     AUTOMOVEL {
         VARCHAR NRPLACA PK
-        VARCHAR NMMODELO
-        DATE ANO_FABRICACAO
-        CHAR TIPO_COMBUSTIVEL
+        VARCHAR CDMODELO FK
+        VARCHAR CDCOMBUSTIVEL FK
+        DATE ANOFABRICACAO
         DECIMAL NRKM
+        VARCHAR OBSERVACAO
     }
-    AUTO_CLIENTE }o--|| CLIENTE : Contem
+    MODELO_CARRO }|--o{ AUTOMOVEL : Esta_no
+    MODELO_CARRO {
+        INT CDMODELO PK
+        INT CDMARCA FK
+        VARCHAR NMMODELO
+    }
+    MARCA_CARRO }|--o{ MODELO_CARRO : Esta_no
+    MARCA_CARRO {
+        INT CDMARCA PK
+        VARCHAR NMMARCA
+    }
     AUTO_CLIENTE }o--|| AUTOMOVEL : Contem
     AUTO_CLIENTE {
         INT CDCLIENTE PK
         VARCHAR NRPLACA PK
     }
+    CLIENTE ||--o{ AUTO_CLIENTE : Contem
     CLIENTE {
         INT CDCLIENTE PK
         VARCHAR NMCLIENTE
         DECIMAL NRCPF
         VARCHAR NRTELEFONE
+        VARCHAR SGESTADO
+        VARCHAR NMCIDADE
+        VARCHAR NMBAIRRO
         VARCHAR NMENDERECO
     }
 ```
 
+&#xa0;
 
 ### 4
-**Com base nos escopos a seguir, crie um modelo de Entidade X Relacionamento para cada sistema:**
 
-- A) Sou gerente de uma empresa de treinamento que ministra vários cursos técnicos. Esses cursos são identificados por código, nome, e tempo de duração. Montamos turmas com base nos cursos que oferecemos. As turmas têm dias fixos da semana, que identificamos como uma letra (S para segunda-quarta-sexta, T para terça-quinta e B para sábado), um horário específico para início e fim, e um preço. Um instrutor pode dar aulas para várias turmas e nós não trocamos os respectivos instrutores enquanto durar o curso de uma turma. É importante saber o nome, o endereço e o telefone de cada instrutor. Os alunos estão sempre vinculados a uma turma. Devemos saber o nome, o endereco e o telefone de cada aluno.
+**Based on the following scopes, create an Entity X Relationship model for each system:**
 
-##### Resposta
+- ##### 4ᴬ) I am the manager of a training company that teaches several technical courses. These courses are identified by code, name, and duration. We set up classes based on the courses we offer. Classes have fixed days of the week, which we identify as a letter (S for Monday-Wednesday-Friday, T for Tuesday-Thursday, and B for Saturday), a specific start and end time, and a price. One instructor can teach multiple classes and we do not change instructors for the duration of a class. It is important to know the name, address and telephone number of each instructor. Students are always linked to a class. We must know the name, address and telephone number of each student.
 
-> Obs.: Criei a entidade (cronograma) para que futuramente possa ser feito consultas, com o intuito de verificar os dias das siglas. Pensando também na possibilidade de serem criadas siglas no futuro.*
+##### REPLY
 
 ```mermaid
     erDiagram
@@ -363,8 +410,6 @@ erDiagram
         INT CDTURMA PK
         VARCHAR CRONOGRAMA FK
         VARCHAR NMTURMA
-        TIME HOR_INICIO
-        TIME HOR_FINAL
         INT CDINSTRUTOR FK
         INT CDCURSO FK
     }
@@ -372,14 +417,15 @@ erDiagram
         INT CDCURSO PK
         VARCHAR NMCURSOR
         DECIMAL PRECO
-        TIME TEMP_CURSO
+        DATE INICIO
+        DATE FIM
     }
     CRONOGRAMA }|--|{ TURMAS : Esta-em
     CRONOGRAMA{
-        VARCHAR NMCRONOGRAMA PK
-        DATE DIA1
-        DATE DIA2
-        DATE DIA3
+        CHAR NMCRONOGRAMA PK
+        VARCHAR NMSDIA
+        TIME HORINICIO
+        TIME HORFINAL
     }
     ESTADO ||--|{ CIDADE : Esta-em
     ESTADO {
@@ -402,13 +448,15 @@ erDiagram
     }
 ```
 
-- B) Sou um gerente de Recursos Humanos. Preciso manter informações de cada funcionário da empresa. As informações de cada funcionário de que necessito são: o primeiro nome, o último nome, a função, a data de admissão e o salário. Caso o funcionário seja comissionado, preciso saber o valor médio da comissão. A empresa é dividida em departamento. Cada funcionário é alocado em um departamento. Preciso saber o nome do departamento e sua localização. Alguns funcionários são também gerentes, portando preciso saber qual o gerente de cada funcionário. Note que o próprio gerente é também um funcionário
+&#xa0;
 
-##### Resposta
+- ##### 4ᴮ) I'm a Human Resources manager. I need to keep information of every employee in the company. The information for each employee I need is: first name, last name, role, hire date and salary. If the employee is commissioned, I need to know the average commission amount. The company is divided into department. Each employee is allocated to a department. I need to know the name of the department and its location. Some employees are also managers, so I need to know which manager each employee is. Note that the manager himself is also an employee
+
+##### REPLY
 
 ```mermaid
     erDiagram
-    FUNCIONARIO }|--o| DEPARTAMENTO : Pertence
+    FUNCIONARIO }|--|| DEPARTAMENTO : Pertence
     FUNCIONARIO {
         INT CDFUNCIONARIO PK
         VARCHAR NMPRIMEIRO
@@ -416,20 +464,22 @@ erDiagram
         DECIMAL CPF
         DECIMAL CEP
         INT CDBAIRRO FK
-        INT CDCIDADE FK
-        CHAR SGESTADO FK
         VARCHAR NMENDERECO
         DATETIME DATA_ADMISSAO
         DECIMAL SALARIO
-        DECIMAL VL_MED_COMISSAO
         INT CDFUNCAO FK
-        VARCHAR NMCARGO FK
         VARCHAR NMDEPARTAMENTO FK
-        INT CDGERENTE FK
     }
+    GERENTE }|--|| FUNCIONARIO : CARGO
+    GERENTE {
+        INT CDFUNCIONARIO PK
+        INT CDGERENTE PK
+    }
+    DEPARTAMENTO }|--|| GERENTE : GERENCIA
     DEPARTAMENTO {
         VARCHAR NMDEPARTAMENTO PK
         INT CDLOCALIZACAO FK
+        INT CDGERENTE FK
     }
     DEPARTAMENTO }|--|| LOCALIZACAO : Esta-no
     LOCALIZACAO {
@@ -444,10 +494,12 @@ erDiagram
         INT CDFUNCAO PK
         VARCHAR NMFUNCAO
     }
-    GERENTE ||..o{ FUNCIONARIO : Contem_ou_e
-    GERENTE {
-        INT CDFUNCIONARIO PK
-        INT CDGERENTE PK
+    LANCAMENTO_COMISSAO ||--o{ FUNCIONARIO : Contem
+    LANCAMENTO_COMISSAO {
+        INT CDLANCAMENTO
+        INT CDFUNCIONARIO
+        DECIMAL VLPAGO
+        DATETIME DTPAGAMENTO
     }
     ESTADO ||--|{ CIDADE : Esta-em
     ESTADO {
@@ -469,9 +521,11 @@ erDiagram
     }
 ```
 
-- C) Possuo um site na Internet onde tentamos resolver questões relacionadas com informática. Para facilitar a localização das questões, segmentamos as dúvidas por plataforma e área de interesse. A partir daí, localizamos os eventos relacionados com essa plataforma (como Windows, Unix, Linux) e esse segmento (como pacotes prontos Office Entre outros, sistema operacional, linguagens de programação). Com essas informações, podemos buscar os eventos relacionados à plataforma e ao segmento para mostrar ao usuário. Nos eventos armazenamos a data da ocorrência, a descrição do problema e da solução apresentada, além do usuário que levantou a dúvida. Outros usuários podem fazer comentários (um texto livre) sobre os eventos apresentados. Cadastramos todos os usuários com o nome, o endereço e o telefone. Cadastramos também os consultores que respondem as questões. Precisamos saber o nome, o endereço e o telefone dos consultores.
+&#xa0;
 
-##### Resposta
+- ##### 4ᶜ) I have a website where we try to solve computer related problems. To make questions easier to find, we've segmented questions by platform and segment. From there, we find the events related to that platform (such as Windows, Unix, Linux) and with the segments (such as Office packages ready, among others, operating system, programming languages). With this information, we can fetch the events related to the platform and the segment to show the user. In the events, we store the date of occurrence, the description of the problem and the solution presented, in addition to the user who raised the issue. Other users can make comments (a free text) about the presented events. We register all users with their name, address and telephone number. We also record the consultants who answer the questions. We need to know the name, address and telephone number of the consultants.
+
+##### REPLY
 
 ```mermaid
     erDiagram
@@ -489,13 +543,14 @@ erDiagram
     }
     DUVIDAS {
         INT CDDUVIDA PK
+        INT CDUSUARIO FK
         INT CDPLATAFORMA FK
         INT CDAREA FK
-        INT CDUSUARIO FK
-        INT CDUSUARIO
         VARCHAR DESCRICAO
         VARCHAR SOLUCAO
-        DATETIME ABERTURA
+        INT CDCONSULTOR FK
+        DATETIME ABERTO
+        DATETIME FECHADO
     }
     COMENTARIOS }|--|{ DUVIDAS : Responde
     COMENTARIOS {
@@ -503,7 +558,6 @@ erDiagram
         INT CDDUVIDA PK
         INT CDUSUARIO FK
         VARCHAR DESCRICAO
-        BIT SOLUCAO
     }
     USUARIO }|--|{ DUVIDAS : Criado_por
     USUARIO {
@@ -512,11 +566,27 @@ erDiagram
         VARCHAR NMULTIMO
         DECIMAL CPF
         DECIMAL CEP
-        VARCHAR SGESTADO
-        VARCHAR NMCIDADE
-        VARHCAR NMBAIRRO
+        VARHCAR CDBAIRRO
         VARCHAR NMLOGRADOURO
         DATE DATA_CADASTRO
+    }
+    ESTADO ||--|{ CIDADE : Esta-em
+    ESTADO {
+        CHAR SGESTADO PK
+        VARCHAR NMESTADO
+    }
+    CIDADE ||--|{ BAIRRO : Esta-em
+    CIDADE {
+        INT CDCIDADE PK
+        VARCHAR SGESTADO PK
+        VARCHAR NMCIDADE
+    }
+    BAIRRO ||--|{ USUARIO : Contem
+    BAIRRO {
+        INTER CDBAIRRO PK
+        INT CDCIDADE PK
+        VARCHAR SGESTADO PK
+        VARCHAR NMBAIRRO
     }
     GRUPO_USUARIO }|--|| USUARIO : Contem
     GRUPO_USUARIO {
