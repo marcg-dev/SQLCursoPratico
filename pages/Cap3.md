@@ -33,22 +33,22 @@ The final result of a data model can be extracted with extreme quality in both f
 
 &#xa0;
 
-[Exercise 1:]()
+[Exercise 1:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#1)
 It was not necessary to make corrections after applying the database normalization rules.	
 
-[Exercise 2:]()
+[Exercise 2:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#2)
 It was not necessary to make corrections after applying the database normalization rules.
 
-[Exercise 3:]()
+[Exercise 3:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#3)
 To create a scalable system and within the database normalization rules, it was necessary to add the entities: **(MARCA_CARRO | MODELO_CARRO | AUTO_CLIENTE | COMBUSTIVEL).** Using the structure presented in the exercise, we would have an extremely limited system.
 
-[Exercise 4ᴬ:]()
+[Exercise 4ᴬ:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#4%E1%B4%AC)
 It was necessary to make some changes to the entity **(CRONOGRAMA)**. So that in the future it is possible to have better flexibility in the creation of new departments
 
-[Exercise 4ᴮ:]()
+[Exercise 4ᴮ:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#4%E1%B4%AE)
 To respect the database normalization rules, it was necessary to correct some entities **(FUNCIONARIO | GERENTE | DEPARTAMENTO).** and add a new entity called **(LANCAMENTO_COMISSAO).**
 
-[Exercise 4ᶜ:]()
+[Exercise 4ᶜ:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#4%E1%B6%9C)
 Finally, I also needed to make corrections to the entities **(DUVIDAS | USUARIO)** to have the data normalization rules applied reliably.
 
 &#xa0;
