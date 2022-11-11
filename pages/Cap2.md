@@ -368,7 +368,8 @@ erDiagram
 
 **Based on the following scopes, create an Entity X Relationship model for each system:**
 
-- ##### 4ᴬ) I am the manager of a training company that teaches several technical courses. These courses are identified by code, name, and duration. We set up classes based on the courses we offer. Classes have fixed days of the week, which we identify as a letter (S for Monday-Wednesday-Friday, T for Tuesday-Thursday, and B for Saturday), a specific start and end time, and a price. One instructor can teach multiple classes and we do not change instructors for the duration of a class. It is important to know the name, address and telephone number of each instructor. Students are always linked to a class. We must know the name, address and telephone number of each student.
+- ##### 4ᴬ)
+I am the manager of a training company that teaches several technical courses. These courses are identified by code, name, and duration. We set up classes based on the courses we offer. Classes have fixed days of the week, which we identify as a letter (S for Monday-Wednesday-Friday, T for Tuesday-Thursday, and B for Saturday), a specific start and end time, and a price. One instructor can teach multiple classes and we do not change instructors for the duration of a class. It is important to know the name, address and telephone number of each instructor. Students are always linked to a class. We must know the name, address and telephone number of each student.
 
 ##### REPLY
 
@@ -450,7 +451,8 @@ erDiagram
 
 &#xa0;
 
-- ##### 4ᴮ) I'm a Human Resources manager. I need to keep information of every employee in the company. The information for each employee I need is: first name, last name, role, hire date and salary. If the employee is commissioned, I need to know the average commission amount. The company is divided into department. Each employee is allocated to a department. I need to know the name of the department and its location. Some employees are also managers, so I need to know which manager each employee is. Note that the manager himself is also an employee
+- ##### 4ᴮ)
+I'm a Human Resources manager. I need to keep information of every employee in the company. The information for each employee I need is: first name, last name, role, hire date and salary. If the employee is commissioned, I need to know the average commission amount. The company is divided into department. Each employee is allocated to a department. I need to know the name of the department and its location. Some employees are also managers, so I need to know which manager each employee is. Note that the manager himself is also an employee
 
 ##### REPLY
 
@@ -523,7 +525,8 @@ erDiagram
 
 &#xa0;
 
-- ##### 4ᶜ) I have a website where we try to solve computer related problems. To make questions easier to find, we've segmented questions by platform and segment. From there, we find the events related to that platform (such as Windows, Unix, Linux) and with the segments (such as Office packages ready, among others, operating system, programming languages). With this information, we can fetch the events related to the platform and the segment to show the user. In the events, we store the date of occurrence, the description of the problem and the solution presented, in addition to the user who raised the issue. Other users can make comments (a free text) about the presented events. We register all users with their name, address and telephone number. We also record the consultants who answer the questions. We need to know the name, address and telephone number of the consultants.
+- ##### 4ᶜ)
+I have a website where we try to solve computer related problems. To make questions easier to find, we've segmented questions by platform and segment. From there, we find the events related to that platform (such as Windows, Unix, Linux) and with the segments (such as Office packages ready, among others, operating system, programming languages). With this information, we can fetch the events related to the platform and the segment to show the user. In the events, we store the date of occurrence, the description of the problem and the solution presented, in addition to the user who raised the issue. Other users can make comments (a free text) about the presented events. We register all users with their name, address and telephone number. We also record the consultants who answer the questions. We need to know the name, address and telephone number of the consultants.
 
 ##### REPLY
 

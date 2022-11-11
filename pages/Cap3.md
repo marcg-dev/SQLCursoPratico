@@ -1,4 +1,4 @@
-## Chapter 3 - Data Normalization
+## Chapter 3 - Database Normalization
 
 In the previous chapter, we did the modeling, using the strategy: Entity Relationship.
 
@@ -31,30 +31,22 @@ The final result of a data model can be extracted with extreme quality in both f
 #### 1.
 **Review the data models created in Exercise Chapter 2 and see if you need to change any of the models. Justify your answer.**
 
-[Exercise 1:]()
-It was not necessary to make corrections after applying the database normalization rules.
+&#xa0;
 
-&#xa0;	
+[Exercise 1:]()
+It was not necessary to make corrections after applying the database normalization rules.	
 
 [Exercise 2:]()
 It was not necessary to make corrections after applying the database normalization rules.
 
-&#xa0;
-
 [Exercise 3:]()
 To create a scalable system and within the database normalization rules, it was necessary to add the entities: **(MARCA_CARRO | MODELO_CARRO | AUTO_CLIENTE | COMBUSTIVEL).** Using the structure presented in the exercise, we would have an extremely limited system.
-
-&#xa0;
 
 [Exercise 4ᴬ:]()
 It was necessary to make some changes to the entity **(CRONOGRAMA)**. So that in the future it is possible to have better flexibility in the creation of new departments
 
-&#xa0;
-
 [Exercise 4ᴮ:]()
 To respect the database normalization rules, it was necessary to correct some entities **(FUNCIONARIO | GERENTE | DEPARTAMENTO).** and add a new entity called **(LANCAMENTO_COMISSAO).**
-
-&#xa0;
 
 [Exercise 4ᶜ:]()
 Finally, I also needed to make corrections to the entities **(DUVIDAS | USUARIO)** to have the data normalization rules applied reliably.
