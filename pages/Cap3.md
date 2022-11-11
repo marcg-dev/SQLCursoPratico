@@ -32,32 +32,32 @@ The final result of a data model can be extracted with extreme quality in both f
 **Review the data models created in Exercise Chapter 2 and see if you need to change any of the models. Justify your answer.**
 
 [Exercise 1:]()
-> It was not necessary to make corrections after applying the database normalization rules.
+It was not necessary to make corrections after applying the database normalization rules.
 
 &#xa0;	
 
 [Exercise 2:]()
-> It was not necessary to make corrections after applying the database normalization rules.
+It was not necessary to make corrections after applying the database normalization rules.
 
 &#xa0;
 
 [Exercise 3:]()
-> To create a scalable system and within the database normalization rules, it was necessary to add the entities: **(MARCA_CARRO | MODELO_CARRO | AUTO_CLIENTE | COMBUSTIVEL).** Using the structure presented in the exercise, we would have an extremely limited system.
+To create a scalable system and within the database normalization rules, it was necessary to add the entities: **(MARCA_CARRO | MODELO_CARRO | AUTO_CLIENTE | COMBUSTIVEL).** Using the structure presented in the exercise, we would have an extremely limited system.
 
 &#xa0;
 
 [Exercise 4ᴬ:]()
-> It was necessary to make some changes to the entity **(CRONOGRAMA)**. So that in the future it is possible to have better flexibility in the creation of new departments
+It was necessary to make some changes to the entity **(CRONOGRAMA)**. So that in the future it is possible to have better flexibility in the creation of new departments
 
 &#xa0;
 
 [Exercise 4ᴮ:]()
-> To respect the database normalization rules, it was necessary to correct some entities **(FUNCIONARIO | GERENTE | DEPARTAMENTO).** and add a new entity called **(LANCAMENTO_COMISSAO).**
+To respect the database normalization rules, it was necessary to correct some entities **(FUNCIONARIO | GERENTE | DEPARTAMENTO).** and add a new entity called **(LANCAMENTO_COMISSAO).**
 
 &#xa0;
 
 [Exercise 4ᶜ:]()
-> Finally, I also needed to make corrections to the entities **(DUVIDAS | USUARIO)** to have the data normalization rules applied reliably.
+Finally, I also needed to make corrections to the entities **(DUVIDAS | USUARIO)** to have the data normalization rules applied reliably.
 
 &#xa0;
 
@@ -68,9 +68,6 @@ The final result of a data model can be extracted with extreme quality in both f
 > **To avoid redundancies and incorrect data, I have kept the entities **(ESTADO | CIDADE | BAIRRO)** for all the Exercises mentioned above.**
 > 
 > **It is evident how the database normalization strategy helped me to correct several problems in my first modeling, where I used the ERDiagram strategy. It was clear that the corrections made provided me with more scalable systems with better data qualities.**
-
-
----
 
 **NOTE**
 > The book informs us that it is often necessary to assess the need to keep some redundant fields in the entity.
