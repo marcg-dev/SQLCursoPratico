@@ -68,3 +68,15 @@ The final result of a data model can be extracted with extreme quality in both f
 > **To avoid redundancies and incorrect data, I have kept the entities **(ESTADO | CIDADE | BAIRRO)** for all the Exercises mentioned above.**
 > 
 > **It is evident how the database normalization strategy helped me to correct several problems in my first modeling, where I used the ERDiagram strategy. It was clear that the corrections made provided me with more scalable systems with better data qualities.**
+
+
+---
+
+**NOTE**
+> The book informs us that it is often necessary to assess the need to keep some redundant fields in the entity.
+>
+> This process is called “database denormalization”.
+>
+> This doesn't mean we're going to throw away all the work we've done before, but we need to remember that: Even the most advanced databases have limitations and costs.
+>
+> It is necessary to carry out an analysis considering the scalability of the system and how this would affect each entity. When encountering any issues that hamper system performance or growth, we need to consider  “database denormalization”.

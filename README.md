@@ -44,3 +44,4 @@ Therefore, even experienced users will be able to extract important concepts.
 
 - **[Chapter 2 - Designing a Database](pages/Cap2.md)**
 - **[Chapter 3 - Data Normalization](pages/Cap3.md)**
+- **[Chapter 4 - Creating a Database](pages/Cap4.md)**
