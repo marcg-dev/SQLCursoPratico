@@ -31,8 +31,6 @@ The final result of a data model can be extracted with extreme quality in both f
 #### 1.
 **Review the data models created in Exercise Chapter 2 and see if you need to change any of the models. Justify your answer.**
 
-&#xa0;
-
 [Exercise 1:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#1)
 It was not necessary to make corrections after applying the database normalization rules.	
 
@@ -50,10 +48,6 @@ To respect the database normalization rules, it was necessary to correct some en
 
 [Exercise 4ᶜ:](https://github.com/marcg-dev/SQLCursoPratico/blob/master/pages/Cap2.md#4%E1%B6%9C)
 Finally, I also needed to make corrections to the entities **(DUVIDAS | USUARIO)** to have the data normalization rules applied reliably.
-
-&#xa0;
-
----
 
 **Conclusion**
 

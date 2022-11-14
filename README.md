@@ -1,6 +1,6 @@
-# Livro SQL Curso Prático Celso Oliveira
-
 ![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
+
+# Livro SQL Curso Prático Celso Oliveira
 
 ### - Purpose of the book
 
@@ -45,3 +45,5 @@ Therefore, even experienced users will be able to extract important concepts.
 - **[Chapter 2 - Designing a Database](pages/Cap2.md)**
 - **[Chapter 3 - Data Normalization](pages/Cap3.md)**
 - **[Chapter 4 - Creating a Database](pages/Cap4.md)**
+
+- **[Annotations](pages/Annotations.md)**
