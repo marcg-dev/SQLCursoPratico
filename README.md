@@ -37,6 +37,8 @@ Therefore, even experienced users will be able to extract important concepts.
 - :green_book: [Download the book](http://library.lol/main/8DEB45E1FBE54B367DF45FA1E22C7F4D)
 - :bookmark_tabs: [Annotations](pages/Annotations.md)
 
+> *Although our repository is largely in English, we will maintain the nomination of tables, attributes and values in the Portuguese standard, just as it is in the book.*
+
 ---
 
 ### Exercises
