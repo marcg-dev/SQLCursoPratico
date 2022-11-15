@@ -1,5 +1,6 @@
 -- Author: Marcelo Gomes
 -- Email: marcs.rgo@gmail.com
+-- [This file represents the response of the exercises in Chapter 4: 1, 2, 3]
 
 CREATE TABLE ESTADO (
     SGESTADO CHAR(2) NOT NULL,
