@@ -14,5 +14,9 @@ Let's get to the exercises. :nerd_face:
 
 ### 
 
-#### 1.
-****
+#### NOTE
+> All exercises for Capitúlo 4 are available in the file: [ImovelNet.sql](downloads/ImovelNet.sql). In all next exercises, this data structure was used until the end of the book.
+> 
+> As indicated by the book, the database name was defined as: `ImovelNet`.
+
+*Although our repository is largely in English, we will maintain the nomination of tables, attributes and values in the Portuguese standard, just as it is in the book.*
