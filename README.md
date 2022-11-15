@@ -1,6 +1,6 @@
 ![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
 
-# Livro SQL Curso Prático Celso Oliveira
+# SQL Book Practical Course Celso Oliveira
 
 ### - Purpose of the book
 
@@ -31,12 +31,13 @@ Therefore, even experienced users will be able to extract important concepts.
 
 ---
 
-### Downloads
+### Links
 
-:bank: [Structure and Data](./downloads/ImovelNet.sql)
+- :bank: [Structure and Data](downloads/ImovelNet.sql)
+- :green_book: [Download the book](http://library.lol/main/8DEB45E1FBE54B367DF45FA1E22C7F4D)
+- :bookmark_tabs: [Annotations](pages/Annotations.md)
 
 ---
-
 
 ### Exercises
 
@@ -45,5 +46,3 @@ Therefore, even experienced users will be able to extract important concepts.
 - **[Chapter 2 - Designing a Database](pages/Cap2.md)**
 - **[Chapter 3 - Data Normalization](pages/Cap3.md)**
 - **[Chapter 4 - Creating a Database](pages/Cap4.md)**
-
-- **[Annotations](pages/Annotations.md)**
