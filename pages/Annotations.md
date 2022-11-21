@@ -17,46 +17,59 @@
 - VARCHAR = Strings, but with variable length;
 - INTERVAL = Date and time range.
 
+---
 
 #### `DEFAULT`
 It is used to assign a default content to a table column whenever a new row is added to the table
 ```
 columnName columnDataType DEFAULT value,
 ```
+
 Example:
 ```
 AMOUNT INTEGER DEFAULT 1,
 ```
+
+---
 
 #### `NOT NULL`
 Indicates that the content of a column cannot be Null.
 ```
 columnName columnDataType NOT NULL,
 ```
+
 Example:
 ```
 CPF DECIMAL(11) NOT NULL,
 ```
+
+---
 
 #### `UNIQUE`
 Indica que não poderá haver repeticão no conteúdo da coluna.
 ```
 columnName columnDataType UNIQUE,
 ```
+
 Example:
 ```
 CPF NUMERIC(11) UNIQUE,
 ```
+
+---
 
 #### `CHECK`
 An expression of possible values for the contents of a column. When creating a column, we can specify which values can be used to fill the column.
 ```
 columnName columnDataType CHECK (UPPER(columnName) = 'value' OR UPPER(columnName) = 'value'),
 ```
+
 Example:
 ```
 GENDER CHAR(1) CHECK (UPPER(GENDER) = 'M' OR UPPER(GENDER) = 'W'),
 ```
+
+---
 
 #### `ASSERTIVES`
 Establishes constraints on the database based on data from one or more tables.
@@ -64,11 +77,14 @@ Establishes constraints on the database based on data from one or more tables.
 CREATE ASSERTION name
 	CHECK (kogicExpression);
 ```
-Example
+
+Example:
 ```
 CREATE ASSERTION CD
 	CHECK (EXISTS SELECT CODE_CD FROM CD);
 ```
+
+---
 
 #### `CREATING TABLES`
 ```
@@ -77,6 +93,7 @@ CREATE TABLE tableName (
 	tableRules
 );
 ```
+
 Example:
 ```
 CREATE TABLE CD (
@@ -92,12 +109,15 @@ CREATE TABLE CD (
 );
 ```
 
+---
+
 #### `CHANGING TABLES`
 ```
 ALTER TABLE tableName
 	ADD/MODIFY columnName columnDataType columnRules
 
 ```
+
 Example:
 ```
 ALTER TABLE CD
@@ -114,6 +134,8 @@ ALTER TABLE CD
 	ADD PRIMARY KEY (CODE_RECORDER)
 ```
 
+---
+
 #### `EXCLUDING`
 
 ```
@@ -128,7 +150,14 @@ DROP INDEX nameIndex
 ALTER TABLE tableName
 	DELETE element
 ;
+
+---
+
+DELETE FROM tableName
+	WHERE condition
+;
 ```
+
 Example:
 ```
 DROP TABLE CD
@@ -146,7 +175,15 @@ ALTER TABLE CD
 
 ALTER TABLE CD
 	DELETE PRIMARY KEY
+
+---
+
+DELETE FROM CD
+	WHERE CODE_CD = 1;
+
 ```
+
+---
 
 #### `CHANGE NAME OF ELEMENTS`
 ```
@@ -158,6 +195,7 @@ ALTER TABLE tableName
 ALTER TABLE tableName
 	RENAME oldColumnName TO newColumnName
 ```
+
 Example:
 ```
 ALTER TABLE CD
@@ -167,7 +205,9 @@ ALTER TABLE CD
 
 ALTER TABLE CD
 	RENAME CODE_CD TO C_CD
+
 ```
+---
 
 #### `INDEX CREATION`
 The index serves to provide quick access to table rows.
@@ -178,6 +218,7 @@ The creation of indexes on the table has an enormous advantage when well directe
 CREATE UNIQUE INDEX nameIndex ON tableName
 	(columnName ASC/DESC);
 ```
+
 Exemplo:
 ```
 CREATE INDEX xNameCD
@@ -192,4 +233,57 @@ CREATE INDEX xNameCD
 
 CREATE UNIQUE INDEX xNameCD
 	ON CD (NAME_CD DESC)
+
+```
+
+#### `ADD ROWS IN THE TABLE`
+```
+INSERT INTO tableName (columnName, columnName)
+	VALUES('value', value);
+```
+
+Exemplo:
+```
+INSERT INTO CD (CODE_CD, CODE_RECORDER, NAME_CD, PRICE_SALE, RELEASE_DATE)
+	VALUES (1, 4, 'Tempo Perdido', 15, '2018-12-03')
+```
+
+---
+
+#### `DATA UPDATE`
+```
+UPDATE tableName
+	SET columnName = value
+	WHERE columnName = value;
+```
+
+Exemplo:
+```
+UPDATE CD
+	SET PRICE_SALE = 15
+	WHERE CODE_CD = 1;
+
+---
+
+UPDATE CD
+	SET PRICE_SALE = 15
+	WHERE CODE_CD = 1 AND CODE_RECORDER = 1;
+
+---
+
+UPDATE CD
+	SET PRICE_SALE = PRICE_SALE * 1.05;
+
+---
+
+UPDATE CD
+	SET NAME_CD 
+
+---
+
+UPDATE CD
+	SET NAME_CD = 'Tempo Perdido',
+	RELEASE_DATE = '2018-12-04'
+	WHERE CODE_CD = 1;
+
 ```
