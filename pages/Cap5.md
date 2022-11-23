@@ -6,6 +6,10 @@ In this phase of the book, the treatment of the Data Manipulation Language (DML)
 
 In summary, there are three commands for inserting and modifying data in a table: `INSERT | DELETE | UPDATE`
 
+---
+
+If you need to consult how to write the syntax, we have some notes for consultation in case of doubt: [Notes](../notes/Concept.md#add-rows-in-the-table)
+
 Let's go to the exercises. :nerd_face:
 
 ---

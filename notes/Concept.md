@@ -1,4 +1,4 @@
-# Annotations
+# Concept Annotations
 
 #### `DATA DEFINITION`
 - INT = Integer positive or negative number;
@@ -235,6 +235,8 @@ CREATE UNIQUE INDEX xNameCD
 	ON CD (NAME_CD DESC)
 
 ```
+
+---
 
 #### `ADD ROWS IN THE TABLE`
 ```

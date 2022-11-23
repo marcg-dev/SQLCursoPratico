@@ -35,7 +35,8 @@ Therefore, even experienced users will be able to extract important concepts.
 
 - :bank: [Structure and Data](downloads/ImovelNet.sql)
 - :green_book: [Download the book](http://library.lol/main/8DEB45E1FBE54B367DF45FA1E22C7F4D)
-- :bookmark_tabs: [Annotations](pages/Annotations.md)
+- :bookmark_tabs: [CONCEPTS NOTES](notes/Concept.md)
+- :bookmark_tabs: [SQL BASIC NOTES](notes/SqlBasic.md)
 
 > *Although our repository is largely in English, we will maintain the nomination of tables, attributes and values in the Portuguese standard, just as it is in the book.*
 
@@ -49,3 +50,7 @@ Therefore, even experienced users will be able to extract important concepts.
 - **[Chapter 3 - Data Normalization](pages/Cap3.md)**
 - **[Chapter 4 - Creating a Database](pages/Cap4.md)**
 - **[Chapter 5 - Adding, updating, and deleting rows in tables](pages/Cap5.md)**
+
+###### _PART 2 - BASIC SQL_
+- **[Chapter 6 - Basic query in the table](pages/Cap6.md)**
+- **[Chapter 7 - Usual calculations and functions](pages/Cap7.md)**
