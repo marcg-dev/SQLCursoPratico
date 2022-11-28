@@ -16,7 +16,7 @@ Therefore, even experienced users will be able to extract important concepts.
 
 `1. Database Modeling and Concepts: Database theory, including database modeling and normalization concepts, through to the data model and creation of tables used to work with the SQL commands that will be discussed later.`
 
-`2. Basic SQL: Covers the **SELECT, INSERT, DELETE, and UPDATE** commands in depth, including searching multiple tables, group functions, sorting data, and more.`
+`2. Basic SQL: Covers the SELECT, INSERT, DELETE, and UPDATE commands in depth, including searching multiple tables, group functions, sorting data, and more.`
 
 `3. Advanced SQL: We will learn to create advanced structures in SQL, such as views. We will identify patterns for assigning and revoking rights. We will also deal with control over transactions.`
 
@@ -45,7 +45,6 @@ Therefore, even experienced users will be able to extract important concepts.
 ### Exercises
 
 ###### _PART 1 - CONCEPTS AND DATA MODELING_
-
 - **[Chapter 2 - Designing a Database](pages/Cap2.md)**
 - **[Chapter 3 - Data Normalization](pages/Cap3.md)**
 - **[Chapter 4 - Creating a Database](pages/Cap4.md)**
@@ -54,3 +53,4 @@ Therefore, even experienced users will be able to extract important concepts.
 ###### _PART 2 - BASIC SQL_
 - **[Chapter 6 - Basic query in the table](pages/Cap6.md)**
 - **[Chapter 7 - Usual calculations and functions](pages/Cap7.md)**
+- **[Chapter 8 - Search in multiple tables](pages/Cap8.md)**

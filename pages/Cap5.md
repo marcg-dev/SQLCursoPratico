@@ -25,7 +25,7 @@ Let's go to the exercises. :nerd_face:
 |    RJ    | RIO DE JANEIRO |
 
 ##### REPLY
-```
+```sql
 INSERT INTO ESTADO (SGESTADO, NMESTADO)
     VALUES('SP', 'RIO DE JANEIRO'),
     ('RJ', 'RIO DE JANEIRO');
@@ -45,7 +45,7 @@ INSERT INTO ESTADO (SGESTADO, NMESTADO)
 |    2     |    NITEROI     |    RJ    |
 
 ##### REPLY
-```
+```sql
 INSERT INTO CIDADE (CDCIDADE, NMCIDADE, SGESTADO)
     VALUES (1, 'SÃO PAULO', 'SP'),
     (2, 'SANTO ANDRÉ', 'SP'),
@@ -68,7 +68,7 @@ INSERT INTO CIDADE (CDCIDADE, NMCIDADE, SGESTADO)
 |    2     | FLAMENGO  |    1     |    RJ    |
 
 ##### REPLY
-```
+```sql
 INSERT INTO BAIRRO (CDBAIRRO, NMBAIRRO, CDCIDADE, SGESTADO)
     VALUES(1, 'JARDINS', 1, 'SP'),
     (2, 'MORUMBI', 1, 'SP'),
@@ -90,7 +90,7 @@ INSERT INTO BAIRRO (CDBAIRRO, NMBAIRRO, CDCIDADE, SGESTADO)
 |     4      | TATIANA SOUZA  | RUA DO IMPERADOR, 778 |  tsouza@novatec.com.br  |
 
 ##### REPLY
-```
+```sql
 INSERT INTO VENDEDOR (CDVENDEDOR, NMVENDEDOR, NMENDERECO, EMAIL)
     VALUES(1, 'MARIA DA SILVA', 'RUA DO GRITO, 45', 'msilva@novatec.com.br'),
     (2, 'MARCOS ANDRADE', 'AV. DA SAUDADE, 325', 'mandrade@novatec.com.br'),
@@ -113,7 +113,7 @@ INSERT INTO VENDEDOR (CDVENDEDOR, NMVENDEDOR, NMENDERECO, EMAIL)
 |    6     |     4      |    1     |    1     |    RJ    |  R GETULIO VARGAS, 552  |    200     |     300     |  99000  |        5        |
 
 ##### REPLY
-```
+```sql
 INSERT INTO IMOVEL (CDIMOVEL, CDVENDEDOR, CDBAIRRO, CDCIDADE, SGESTADO, NMENDERECO, NRAREAUTIL, NRAREATOTAL, VLPRECO, IMOVEL_INDICADO)
     VALUES(1, 1, 1, 1, 'SP', 'AL TIETE, 3304 AP 101', 250, 400, 180000, NULL),
     (2, 1, 2, 1, 'SP', 'AV MORUMBI, 2230', 150, 250, 135000, 1 ),
@@ -136,7 +136,7 @@ INSERT INTO IMOVEL (CDIMOVEL, CDVENDEDOR, CDBAIRRO, CDCIDADE, SGESTADO, NMENDERE
 |     4      | MANFRED AUGUSTO  |    AV BRASIL, 351    | maugusto@novatec.com.br |
 
 ##### REPLY
-```
+```sql
 INSERT INTO COMPRADOR (CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, EMAIL)
     VALUES(1, 'EMMANUEL ANTUNES', 'R SARAIVA, 452', 'eantunes@novatec.com.br'),
     (2, 'JOANA PEREIRA', 'AV PORTUGAL, 52', 'jpereira@novatec.com.br'),
@@ -159,7 +159,7 @@ INSERT INTO COMPRADOR (CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, EMAIL)
 |     3      |    2     |  140000  | 20/02/02 |
 
 ##### REPLY
-```
+```sql
 INSERT INTO OFERTA (CDCOMPRADOR, CDIMOVEL, VLOFERTA, DTOFERTA)
     VALUES (1, 1, 170000, '2002-01-10'),
     (1, 3, 180000, '2002-01-10'),
@@ -175,7 +175,7 @@ INSERT INTO OFERTA (CDCOMPRADOR, CDIMOVEL, VLOFERTA, DTOFERTA)
 **Increase the sales price of the table: IMOVEL by 10%:**
 
 ##### REPLY
-```
+```sql
 UPDATE IMOVEL
 	SET VLPRECO = VLPRECO * 1.10;
 ```
@@ -186,7 +186,7 @@ UPDATE IMOVEL
 **Lower the selling price of the table IMOVEL, from seller 1 by 5%**
 
 ##### REPLY
-```
+```sql
 UPDATE IMOVEL
 	SET VLPRECO = VLPRECO * 0.95
 	WHERE CDVENDEDOR = 1;
@@ -198,7 +198,7 @@ UPDATE IMOVEL
 **Increase the VLOFERTA column of the OFERTA table by 5%, of those who have CDCOMPRADOR = 2.**
 
 ##### REPLY
-```
+```sql
 UPDATE OFERTA
 	SET VLOFERTA = VLOFERTA * 1.05
 	WHERE CDCOMPRADOR = 2;
@@ -210,7 +210,7 @@ UPDATE OFERTA
 **Change the column NMENDERECO, to `R ANANÁS, 45` and SGESTADO to `RJ` in the COMPRADOR table, in the row that has CDCOMPRADOR = 3.**
 
 ##### REPLY
-```
+```sql
 UPDATE COMPRADOR
 	SET NMENDERECO = 'R ANANÁS, 45', SGESTADO = 'RJ'
 	WHERE CDCOMPRADOR = 3;
@@ -222,7 +222,7 @@ UPDATE COMPRADOR
 **Change the VLOFERTA column of the OFERTA table, which has CDCOMPRADOR = 2 AND CDIMOVEL = 4 to 101,000.**
 
 ##### REPLY
-```
+```sql
 UPDATE OFERTA
     SET VLOFERTA = 101,000
     WHERE CDCOMPRADOR = 2 AND CDIMOVEL = 4;
@@ -234,7 +234,7 @@ UPDATE OFERTA
 **Delete the row that has CDCOMPRADOR = 3 and CDIMOVEL = 1 in the OFERTA table.**
 
 ##### REPLY
-```
+```sql
 DELETE FROM OFERTA
     WHERE CDCOMPRADOR = 3 AND CDIMOVEL = 1;
 ```
@@ -245,7 +245,7 @@ DELETE FROM OFERTA
 **Delete in the CIDADE table the row that has CDCIDADE = 3 and SGESTADO = SP.**
 
 ##### REPLY
-```
+```sql
 DELETE FROM CIDADE
     WHERE CDCIDADE = 3 AND SGESTADO = 'SP';
 ```
@@ -262,7 +262,7 @@ DELETE FROM CIDADE
 |    3    |  ALTO   |  180001  |  999999  |
 
 ##### REPLY
-```
+```sql
 INSERT INTO FAIXA_IMOVEL(CDFAIXA, NMFAIXA, VLMINIMO, VLMAXIMO)
     VALUES(1, 'BAIXO', 0, 105000),
     (2, 'MÉDIO', 105001, 180000),

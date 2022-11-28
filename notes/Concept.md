@@ -21,12 +21,12 @@
 
 #### `DEFAULT`
 It is used to assign a default content to a table column whenever a new row is added to the table
-```
+```sql
 columnName columnDataType DEFAULT value,
 ```
 
 Example:
-```
+```sql
 AMOUNT INTEGER DEFAULT 1,
 ```
 
@@ -34,12 +34,12 @@ AMOUNT INTEGER DEFAULT 1,
 
 #### `NOT NULL`
 Indicates that the content of a column cannot be Null.
-```
+```sql
 columnName columnDataType NOT NULL,
 ```
 
 Example:
-```
+```sql
 CPF DECIMAL(11) NOT NULL,
 ```
 
@@ -47,12 +47,12 @@ CPF DECIMAL(11) NOT NULL,
 
 #### `UNIQUE`
 Indica que não poderá haver repeticão no conteúdo da coluna.
-```
+```sql
 columnName columnDataType UNIQUE,
 ```
 
 Example:
-```
+```sql
 CPF NUMERIC(11) UNIQUE,
 ```
 
@@ -60,12 +60,12 @@ CPF NUMERIC(11) UNIQUE,
 
 #### `CHECK`
 An expression of possible values for the contents of a column. When creating a column, we can specify which values can be used to fill the column.
-```
+```sql
 columnName columnDataType CHECK (UPPER(columnName) = 'value' OR UPPER(columnName) = 'value'),
 ```
 
 Example:
-```
+```sql
 GENDER CHAR(1) CHECK (UPPER(GENDER) = 'M' OR UPPER(GENDER) = 'W'),
 ```
 
@@ -73,13 +73,13 @@ GENDER CHAR(1) CHECK (UPPER(GENDER) = 'M' OR UPPER(GENDER) = 'W'),
 
 #### `ASSERTIVES`
 Establishes constraints on the database based on data from one or more tables.
-```
+```sql
 CREATE ASSERTION name
 	CHECK (kogicExpression);
 ```
 
 Example:
-```
+```sql
 CREATE ASSERTION CD
 	CHECK (EXISTS SELECT CODE_CD FROM CD);
 ```
@@ -87,7 +87,7 @@ CREATE ASSERTION CD
 ---
 
 #### `CREATING TABLES`
-```
+```sql
 CREATE TABLE tableName (
 	columnName columnDataType columnRules,
 	tableRules
@@ -95,7 +95,7 @@ CREATE TABLE tableName (
 ```
 
 Example:
-```
+```sql
 CREATE TABLE CD (
     CODE_CD INTEGER NOT NULL,
     CODE_RECORDER INTERGER NULL,
@@ -112,14 +112,14 @@ CREATE TABLE CD (
 ---
 
 #### `CHANGING TABLES`
-```
+```sql
 ALTER TABLE tableName
 	ADD/MODIFY columnName columnDataType columnRules
 
 ```
 
 Example:
-```
+```sql
 ALTER TABLE CD
 	ADD NAME_CD VARCHAR(70) UNIQUE
 
@@ -138,7 +138,7 @@ ALTER TABLE CD
 
 #### `EXCLUDING`
 
-```
+```sql
 DROP TABLE tableName
 
 ---
@@ -159,7 +159,7 @@ DELETE FROM tableName
 ```
 
 Example:
-```
+```sql
 DROP TABLE CD
 
 ---
@@ -186,7 +186,7 @@ DELETE FROM CD
 ---
 
 #### `CHANGE NAME OF ELEMENTS`
-```
+```sql
 ALTER TABLE tableName
 	RENAME newTableName
 
@@ -197,7 +197,7 @@ ALTER TABLE tableName
 ```
 
 Example:
-```
+```sql
 ALTER TABLE CD
 	RENAME CDS
 
@@ -214,13 +214,13 @@ The index serves to provide quick access to table rows.
 
 The creation of indexes on the table has an enormous advantage when well directed, but it can cause enormous problems if applied without criteria.
 
-```
+```sql
 CREATE UNIQUE INDEX nameIndex ON tableName
 	(columnName ASC/DESC);
 ```
 
 Exemplo:
-```
+```sql
 CREATE INDEX xNameCD
 	ON CD (NAME_CD)
 
@@ -239,13 +239,13 @@ CREATE UNIQUE INDEX xNameCD
 ---
 
 #### `ADD ROWS IN THE TABLE`
-```
+```sql
 INSERT INTO tableName (columnName, columnName)
 	VALUES('value', value);
 ```
 
 Exemplo:
-```
+```sql
 INSERT INTO CD (CODE_CD, CODE_RECORDER, NAME_CD, PRICE_SALE, RELEASE_DATE)
 	VALUES (1, 4, 'Tempo Perdido', 15, '2018-12-03')
 ```
@@ -253,14 +253,14 @@ INSERT INTO CD (CODE_CD, CODE_RECORDER, NAME_CD, PRICE_SALE, RELEASE_DATE)
 ---
 
 #### `DATA UPDATE`
-```
+```sql
 UPDATE tableName
 	SET columnName = value
 	WHERE columnName = value;
 ```
 
 Exemplo:
-```
+```sql
 UPDATE CD
 	SET PRICE_SALE = 15
 	WHERE CODE_CD = 1;

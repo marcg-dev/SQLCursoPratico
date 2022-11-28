@@ -18,7 +18,7 @@ Let's go to the exercises. :nerd_face:
 **List all fields and rows from the BAIRRO table.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM BAIRRO;
 ```
 
@@ -28,7 +28,7 @@ SELECT * FROM BAIRRO;
 **List all rows and fields: CDCOMPRADOR, NMCOMPRADOR and EMAIL from the COMPRADOR table.**
 
 ##### REPLY
-```
+```sql
 SELECT CDCOMPRADOR, NMCOMPRADOR, EMAIL
 	FROM COMPRADOR;
 ```
@@ -39,7 +39,7 @@ SELECT CDCOMPRADOR, NMCOMPRADOR, EMAIL
 **List all rows and fields: CDVENDEDOR, NMVENDEDOR and EMAIL from the VENDEDOR table in alphabetical order.**
 
 ##### REPLY
-```
+```sql
 SELECT CDVENDEDOR, NMVENDEDOR, EMAIL
 	FROM VENDEDOR
 	ORDER BY NMVENDEDOR;
@@ -51,7 +51,7 @@ SELECT CDVENDEDOR, NMVENDEDOR, EMAIL
 **Repeat the previous command in descending alphabetical order.**
 
 ##### REPLY
-```
+```sql
 SELECT CDVENDEDOR, NMVENDEDOR, EMAIL
 	FROM VENDEDOR
 	ORDER BY NMVENDEDOR DESC;
@@ -63,7 +63,7 @@ SELECT CDVENDEDOR, NMVENDEDOR, EMAIL
 **List the rows from the BAIRRO table that have SGESTADO = SP.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM BAIRRO
 	WHERE SGESTADO = 'SP';
 ```
@@ -74,7 +74,7 @@ SELECT * FROM BAIRRO
 **List the rows with the columns CDIMOVEL, CDVENDEDOR and VLPRECO from the IMOVEL table, which have CDVENDEDOR = 2.**
 
 ##### REPLY
-```
+```sql
 SELECT CDIMOVEL, CDVENDEDOR, VLPRECO
 	FROM IMOVEL
 	WHERE CDVENDEDOR = 2;
@@ -86,7 +86,7 @@ SELECT CDIMOVEL, CDVENDEDOR, VLPRECO
 **List the columns CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO from the IMOVEL table, whose value in the column VLPRECO is less than 150 thousand and the column SGESTADO is equal to RJ.**
 
 ##### REPLY
-```
+```sql
 SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 	FROM IMOVEL
     WHERE VLPRECO < 150000 AND SGESTADO = 'RJ';
@@ -98,7 +98,7 @@ SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 **List the columns CDIMOVEL, CDVENDEDOR, VLPRECO and SGESTADO from the IMOVEL table, whose column VLPRECO is less than 150 thousand, or the column CDVENDEDOR is equal to 1.**
 
 ##### REPLY
-```
+```sql
 SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 	FROM IMOVEL
     WHERE VLPRECO < 150000 OR CDVENDEDOR = 1;
@@ -110,7 +110,7 @@ SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 **List the columns CDIMOVEL, CDVENDEDOR, VLPRECO and SGESTADO from the IMOVEL table, whose column VLPRECO is less than 150 thousand and the column CDVENDEDOR is not 2.**
 
 ##### REPLY
-```
+```sql
 SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 	FROM IMOVEL
     WHERE VLPRECO < 150000 AND CDVENDEDOR != 2;
@@ -122,7 +122,7 @@ SELECT CDIMOVEL, CDVENDEDOR, VLPRECO, SGESTADO
 **List the columns CDCOMPRADOR, NMCOMPRADOR, NMENDERECO and SGESTADO from the table COMPPRADOR, which has the value of the column SGESTADO null.**
 
 ##### REPLY
-```
+```sql
 SELECT CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, SGESTADO
     FROM COMPRADOR
     WHERE SGESTADO IS NULL;
@@ -134,7 +134,7 @@ SELECT CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, SGESTADO
 **List the columns CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, SGESTADO from the COMPPRADOR table, where the column SGESTADO is not null.**
 
 ##### REPLY
-```
+```sql
 SELECT CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, SGESTADO
     FROM COMPRADOR
     WHERE SGESTADO IS NOT NULL;
@@ -146,7 +146,7 @@ SELECT CDCOMPRADOR, NMCOMPRADOR, NMENDERECO, SGESTADO
 **List all rows in the OFFER table whose value in the VLOFERTA column is between 100 thousand and 150 thousand.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM OFERTA
 	WHERE VLOFERTA BETWEEN 100000 AND 150000;
 ```
@@ -157,7 +157,7 @@ SELECT * FROM OFERTA
 **List all rows in the OFFER table whose DTOFERTA column is between '02/02/01' and '02/03/01'.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM OFERTA
 	WHERE DTOFERTA BETWEEN '2002-02-01' AND '2002-03-01';
 ```
@@ -168,7 +168,7 @@ SELECT * FROM OFERTA
 **List all rows in the VENDEDOR table that have the column NMVENDEDOR starting with the letter M.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM VENDEDOR
 	WHERE NMVENDEDOR LIKE 'M%';
 ```
@@ -179,7 +179,7 @@ SELECT * FROM VENDEDOR
 **List all rows in the VENDEDOR table that have the letter A in the second position of the NMVENDEDOR column.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM VENDEDOR
 	WHERE NMVENDEDOR LIKE '_A%';
 ```
@@ -190,7 +190,7 @@ SELECT * FROM VENDEDOR
 **List all rows in the COMPRADOR table that have the letter U in any position of the NMENDERECO column.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM COMPRADOR
 	WHERE NMENDERECO LIKE '%U%';
 ```
@@ -201,7 +201,7 @@ SELECT * FROM COMPRADOR
 **List all rows in the OFERTA table whose value in the CDIMOVEL column is equal to 1 or 2.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM OFERTA
 	WHERE CDIMOVEL IN (1, 2);
 ```
@@ -212,7 +212,7 @@ SELECT * FROM OFERTA
 **List all rows in the IMOVEL table whose CDIMOVEL is equal to 2 or 3 in alphabetical order by column NMENDERECO.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM IMOVEL
 	WHERE CDIMOVEL IN (2, 3)
     ORDER BY NMENDERECO;
@@ -224,7 +224,7 @@ SELECT * FROM IMOVEL
 **List all rows in the OFFER table whose CDIMOVEL is equal to 2 or 3 and the VLOFERTA column is greater than 140 thousand, in descending order by the DTOFERTA column.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM OFERTA
 	WHERE CDIMOVEL IN (2, 3) AND VLOFERTA > 140000
     ORDER BY DTOFERTA DESC;
@@ -236,7 +236,7 @@ SELECT * FROM OFERTA
 **List all the rows of the IMOVEL table, whose value in the VLPRECO column is between 110,000 and 200,000 or the CDVENDEDOR column is equal to 1, and organize the ordering by the NRAREAUTIL column.**
 
 ##### REPLY
-```
+```sql
 SELECT * FROM IMOVEL
 	WHERE VLPRECO BETWEEN 110000 AND 200000 OR CDVENDEDOR = 1
     ORDER BY NRAREAUTIL;
