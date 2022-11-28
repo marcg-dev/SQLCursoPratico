@@ -1,4 +1,4 @@
-![BANNER LIVRO](https://images2.imgbox.com/1f/57/ZuVz2mNH_o.jpg)
+![BANNER LIVRO](./banner-curso.png)
 
 # SQL Book Practical Course Celso Oliveira
 
