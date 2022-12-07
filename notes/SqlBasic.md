@@ -35,6 +35,15 @@
 - `*` = MUTIPLICATION
 - `/` = DIVISION
 
+**Group functions**
+- `COUNT` = Returns the number of lines affected by the command.
+- `SUM` = Returns the sum of the values of the specified columns.
+- `AVG` = Returns the arithmetic mean of the column values.
+- `MIN` = Returns the smallest column value of a group of rows.
+- `MAX` = Returns the largest column value from a group of rows.
+- `STDDEV` = Returns the standard deviation of the column.
+- `VARIANCE` = Returns the variance of the column.
+
 ---
 
 #### `SELECT`
@@ -67,7 +76,7 @@ SELECT CODE_CD, NAME_CD
 
 SELECT CODE_CD, NAME_CD
     FROM CD
-    WHERE CODE_RECORDER = 1
+    WHERE CODE_RECORDCOMPANY = 1
     ORDER BY NAME_CD;
 
 ---
@@ -439,3 +448,248 @@ SELECT a.CODE_CD, a.NAME_CD, a.CD_INDICATED, b.NAME_CD
     FROM CD a, CD b
     WHERE a.CD_INDICATED = b.CODE_CD
 ```
+
+---
+
+#### `COUNT`
+
+COUNT returns the number of rows that meet a given condition.
+
+If we want to know how many rows there are and which of these do not have a null value in a given column, we specify that column in parentheses.
+
+Another interesting way to use COUNT is by adding a DISTINCT clause to it.
+
+```sql
+SELECT COUNT(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT COUNT(*) FROM CD;
+
+---
+
+SELECT COUNT(NAME_CD) FROM CD;
+
+```
+
+---
+
+
+#### `SUM`
+
+Returns the total value of a given column in a given group of rows.
+
+We can perform other calculations based on summation or even include other columns and operations in the command.
+
+```sql
+SELECT SUM(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT SUM(PRICE_CD) FROM CD;
+
+---
+
+SELECT SUM(PRICE_CD) * 1.2 FROM CD;
+```
+
+---
+
+#### `AVG`
+
+Extracts the arithmetic mean of a given group of rows.
+
+```sql
+SELECT AVG(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT AVG(PRICE_CD) FROM CD;
+```
+
+---
+
+#### `MIN`
+
+Returns the smallest value of a column in a group of rows.
+
+We can use it for date-type or alphanumeric columns.
+
+```sql
+SELECT MIN(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT MIN(PRICE_CD) FROM CD;
+
+---
+
+SELECT MIN(RELEASE_DATE) FROM CD;
+```
+
+---
+
+#### `MAX`
+
+Returns the largest value from a column in a group of rows.
+
+Like MIN, it can be used for date-type or alphanumeric columns.
+
+```sql
+SELECT MAX(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT MAX(PRICE_CD) FROM CD;
+
+---
+
+SELECT MAX(RELEASE_DATE) FROM CD;
+```
+
+---
+
+#### `STDDEV`
+
+Returns the standard deviation for a given column.
+
+```sql
+SELECT STDDEV(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT STDDEV(PRICE_CD) FROM CD;
+```
+
+---
+
+#### `VARIANCE`
+
+Returns the variance of a given column.
+
+```sql
+SELECT VARIANCE(columnName) FROM tableName;
+```
+
+Example:
+```sql
+SELECT VARIANCE(PRICE_CD) FROM CD;
+```
+
+---
+
+#### `CAST`
+Returns a conversion between data types for certain situations.
+
+```sql
+SELECT CAST(AVG(columnName) AS dataType) nameColumn
+    FROM tableName;
+```
+
+Example:
+```sql
+SELECT CAST(AVG(PRICE_CD) AS DECIMAL (10,2)) FORMATTED_PRICE
+    FROM CD;
+```
+
+In the Oracle database, there are specific functions for transforming alphanumerics (TO_CHAR) and numerics (TO_NUMBER) into data (TO_DATE). In all cases, the function's first argument is what you want to transform and the second is the format (optional). In this way, we have:
+
+```sql
+SELECT TO_DATE( SYSDATE, 'DD-MM-YYYY' ) FROM DUAL;
+
+---
+
+SELECT TO_NUMBER( '1234' ) FROM DUAL; 
+
+---
+
+SELECT TO_CHAR( 555, '09999' ) FROM DUAL; 
+```
+
+To convert a field of type date in mysql, we must use the following command:
+
+```sql
+SELECT DATE_FORMAT(columnName, 'format') newColumnName
+	FROM tableName
+```
+
+Example:
+```sql
+    SELECT DATE_FORMAT(OFFER_DATE, '%d/%m/%Y') YEARS_OLD
+	FROM OFFER
+```
+
+---
+
+#### `GROUPING RESULTS`
+
+For this, we use the group functions already shown, with the GROUP BY clause in the SELECT statement. The GROUP BY clause must come before the ORDER BY clause and after the WHERE (if you need to use them).
+
+We can perform more than one group function within the same SELECT.
+
+The list of columns to be grouped by (must match the same sequence as the GROUP BY clause).
+
+```sql
+SELECT columnName, ColumnName, groupRole
+    FROM tableName
+    GROUP BY columnName
+```
+
+Example:
+```sql
+SELECT CODE_CD, COUNT(*)
+    FROM MUSIC_TRACK
+    GROUP BY CODE_CD;
+
+---
+
+SELECT CODE_RECORDCOMPANY, AVG(PRICE_CD)
+    FROM CD
+    GROUP BY CODE_RECORDCOMPANY;
+
+---
+
+SELECT CODE_RECORDCOMPANY, AVG(PRICE_CD), COUNT(*)
+    FROM CD
+    GROUP BY CODE_RECORDCOMPANY;
+
+---
+```
+
+**Grouping with more than one table**
+
+We must put ALL the columns that are part of the SELECT statement in the GROUP BY clause, except of course the group function. Adopt this as a rule to avoid problems with the command.
+
+```sql
+-- Grouping with more than one table
+SELECT CD.CODE_RECORDCOMPANY, RECORDCOMPANY.NAME_RECORDCOMPANY, AVG(PRICE_CD)
+    FROM CD, RECORDCOMPANY
+    WHERE CD.CODE_RECORDCOMPANY = RECORDCOMPANY.CODE_RECORDCOMPANY
+    GROUP BY CD.CODE_RECORDCOMPANY, RECORDCOMPANY.NAME_RECORDCOMPANY;
+```
+
+**Restricting results**
+
+Ao usar a cláusula WHERE, as linhas são filtradas ANTES do agrupamento. Ao usar HAVING, as linhas são filtradas DEPOIS do agrupamento.
+
+The only restriction is that the HAVING clause can only use the columns that are part of the GROUP BY to filter the rows. For WHERE, this is not necessary.
+
+```sql
+SELECT CODE_MUSIC, COUNT(*) 
+    FROM MUSIC_AUTHOR 
+    WHERE CODE_MUSIC < 15
+    GROUP BY CODE_MUSIC
+    HAVING CODE_MUSIC > 10; 
+```
+
+Never use a group function in the WHERE clause to filter groups.
+
+This can be done using the HAVING clause.
+
+---

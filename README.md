@@ -54,3 +54,4 @@ Therefore, even experienced users will be able to extract important concepts.
 - **[Chapter 6 - Basic query in the table](pages/Cap6.md)**
 - **[Chapter 7 - Usual calculations and functions](pages/Cap7.md)**
 - **[Chapter 8 - Search in multiple tables](pages/Cap8.md)**
+- **[Chapter 9 - Group functions and groupings](pages/Cap9.md)**
